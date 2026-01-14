@@ -1,0 +1,224 @@
+{
+  "items": [
+    {
+      "id": "monitor-dell-u2723qe",
+      "name": "Dell U2723QE 27インチ 4K USB-Cハブモニター",
+      "description": "USB-C 90W給電対応の27インチ4Kモニター。IPS Blackパネル採用で高コントラスト。",
+      "shortDescription": "USB-C給電対応の高画質4Kモニター",
+      "imageUrl": "/images/items/dell-u2723qe.jpg",
+      "category": "device",
+      "subCategory": "monitor",
+      "score": 95,
+      "amazon": {
+        "asin": "B09V3JGWJ7",
+        "url": "https://www.amazon.co.jp/dp/B09V3JGWJ7",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B09V3JGWJ7?tag=deskitemrank-22",
+        "price": 89800
+      },
+      "tags": ["4K", "USB-C", "IPS", "27インチ", "Dell"],
+      "brand": "Dell",
+      "featured": true,
+      "isNew": false,
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "keyboard-hhkb-hybrid",
+      "name": "HHKB Professional HYBRID Type-S",
+      "description": "静電容量無接点方式の高級キーボード。Bluetooth/USB両対応。",
+      "shortDescription": "プロ御用達の静音高級キーボード",
+      "imageUrl": "/images/items/hhkb-hybrid.jpg",
+      "category": "device",
+      "subCategory": "keyboard",
+      "score": 92,
+      "amazon": {
+        "asin": "B082TYNNL2",
+        "url": "https://www.amazon.co.jp/dp/B082TYNNL2",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B082TYNNL2?tag=deskitemrank-22",
+        "price": 36850
+      },
+      "tags": ["静電容量", "無接点", "Bluetooth", "HHKB"],
+      "brand": "PFU",
+      "featured": true,
+      "isNew": false,
+      "createdAt": "2024-01-05",
+      "updatedAt": "2024-01-10"
+    },
+    {
+      "id": "mouse-logicool-mx-master3s",
+      "name": "Logicool MX Master 3S",
+      "description": "静音クリック採用のフラッグシップマウス。8000DPIセンサー搭載。",
+      "shortDescription": "静音で高精度なプロ向けマウス",
+      "imageUrl": "/images/items/mx-master-3s.jpg",
+      "category": "device",
+      "subCategory": "mouse",
+      "score": 90,
+      "amazon": {
+        "asin": "B0B19VC66B",
+        "url": "https://www.amazon.co.jp/dp/B0B19VC66B",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0B19VC66B?tag=deskitemrank-22",
+        "price": 16940
+      },
+      "tags": ["静音", "エルゴノミクス", "Bluetooth", "Logicool"],
+      "brand": "Logicool",
+      "featured": true,
+      "isNew": false,
+      "createdAt": "2024-01-08",
+      "updatedAt": "2024-01-12"
+    },
+    {
+      "id": "headphone-sony-wh1000xm5",
+      "name": "Sony WH-1000XM5",
+      "description": "業界最高クラスのノイズキャンセリング性能。30時間再生可能。",
+      "shortDescription": "最強ノイキャンのワイヤレスヘッドホン",
+      "imageUrl": "/images/items/sony-wh1000xm5.jpg",
+      "category": "device",
+      "subCategory": "headphone",
+      "score": 88,
+      "amazon": {
+        "asin": "B0B1FDNW8L",
+        "url": "https://www.amazon.co.jp/dp/B0B1FDNW8L",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0B1FDNW8L?tag=deskitemrank-22",
+        "price": 44000
+      },
+      "tags": ["ノイズキャンセリング", "Bluetooth", "ワイヤレス", "Sony"],
+      "brand": "Sony",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2024-01-14",
+      "updatedAt": "2024-01-14"
+    },
+    {
+      "id": "desk-flexispot-e7",
+      "name": "FlexiSpot E7 電動昇降デスク",
+      "description": "デュアルモーター搭載の電動昇降デスク。高さ58〜123cm調整可能。",
+      "shortDescription": "人気No.1の電動昇降デスク",
+      "imageUrl": "/images/items/flexispot-e7.jpg",
+      "category": "furniture",
+      "subCategory": "desk",
+      "score": 91,
+      "amazon": {
+        "asin": "B08H1XQKW7",
+        "url": "https://www.amazon.co.jp/dp/B08H1XQKW7",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B08H1XQKW7?tag=deskitemrank-22",
+        "price": 57200
+      },
+      "tags": ["電動昇降", "スタンディング", "FlexiSpot"],
+      "brand": "FlexiSpot",
+      "featured": true,
+      "isNew": false,
+      "createdAt": "2024-01-02",
+      "updatedAt": "2024-01-10"
+    },
+    {
+      "id": "chair-ergohuman-pro",
+      "name": "エルゴヒューマン プロ オットマン",
+      "description": "独立式ランバーサポート搭載の高機能チェア。オットマン内蔵。",
+      "shortDescription": "腰痛持ちに人気のオフィスチェア",
+      "imageUrl": "/images/items/ergohuman-pro.jpg",
+      "category": "furniture",
+      "subCategory": "chair",
+      "score": 87,
+      "amazon": {
+        "asin": "B00B6IVSTA",
+        "url": "https://www.amazon.co.jp/dp/B00B6IVSTA",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B00B6IVSTA?tag=deskitemrank-22",
+        "price": 148500
+      },
+      "tags": ["オフィスチェア", "エルゴノミクス", "オットマン"],
+      "brand": "Ergohuman",
+      "featured": false,
+      "isNew": false,
+      "createdAt": "2024-01-03",
+      "updatedAt": "2024-01-08"
+    },
+    {
+      "id": "monitor-arm-ergotron-lx",
+      "name": "エルゴトロン LX デスクマウントアーム",
+      "description": "最大34インチモニター対応。特許取得のコンスタント・フォース技術搭載。",
+      "shortDescription": "高品質モニターアームの定番",
+      "imageUrl": "/images/items/ergotron-lx.jpg",
+      "category": "furniture",
+      "subCategory": "monitor-arm",
+      "score": 85,
+      "amazon": {
+        "asin": "B00358RIRC",
+        "url": "https://www.amazon.co.jp/dp/B00358RIRC",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B00358RIRC?tag=deskitemrank-22",
+        "price": 18744
+      },
+      "tags": ["モニターアーム", "エルゴトロン", "VESA"],
+      "brand": "Ergotron",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2024-01-13",
+      "updatedAt": "2024-01-13"
+    },
+    {
+      "id": "desk-light-benq-screenbar",
+      "name": "BenQ ScreenBar モニターライト",
+      "description": "モニター上に設置するLEDライト。画面への映り込みゼロ。",
+      "shortDescription": "モニター専用のスマートライト",
+      "imageUrl": "/images/items/benq-screenbar.jpg",
+      "category": "lighting",
+      "subCategory": "desk-light",
+      "score": 89,
+      "amazon": {
+        "asin": "B07PJ1BMPL",
+        "url": "https://www.amazon.co.jp/dp/B07PJ1BMPL",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B07PJ1BMPL?tag=deskitemrank-22",
+        "price": 15900
+      },
+      "tags": ["モニターライト", "LED", "BenQ", "目に優しい"],
+      "brand": "BenQ",
+      "featured": true,
+      "isNew": false,
+      "createdAt": "2024-01-04",
+      "updatedAt": "2024-01-09"
+    },
+    {
+      "id": "desk-mat-grovemade",
+      "name": "Grovemade デスクマット",
+      "description": "本革製の高級デスクマット。経年変化を楽しめる。",
+      "shortDescription": "本革の上質デスクマット",
+      "imageUrl": "/images/items/grovemade-mat.jpg",
+      "category": "lighting",
+      "subCategory": "desk-mat",
+      "score": 82,
+      "amazon": {
+        "asin": "B08QS64X7J",
+        "url": "https://www.amazon.co.jp/dp/B08QS64X7J",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B08QS64X7J?tag=deskitemrank-22",
+        "price": 12800
+      },
+      "tags": ["デスクマット", "本革", "Grovemade"],
+      "brand": "Grovemade",
+      "featured": false,
+      "isNew": false,
+      "createdAt": "2024-01-06",
+      "updatedAt": "2024-01-11"
+    },
+    {
+      "id": "ambient-light-philips-hue",
+      "name": "Philips Hue Play ライトバー",
+      "description": "1600万色対応のスマート間接照明。アプリで自在にコントロール。",
+      "shortDescription": "映える間接照明の定番",
+      "imageUrl": "/images/items/philips-hue-play.jpg",
+      "category": "lighting",
+      "subCategory": "ambient-light",
+      "score": 80,
+      "amazon": {
+        "asin": "B07GXBYYKK",
+        "url": "https://www.amazon.co.jp/dp/B07GXBYYKK",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B07GXBYYKK?tag=deskitemrank-22",
+        "price": 10780
+      },
+      "tags": ["間接照明", "スマートライト", "Philips Hue", "RGB"],
+      "brand": "Philips",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2024-01-12",
+      "updatedAt": "2024-01-12"
+    }
+  ]
+}

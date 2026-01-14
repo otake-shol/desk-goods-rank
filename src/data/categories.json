@@ -1,0 +1,47 @@
+{
+  "categories": [
+    {
+      "id": "device",
+      "name": "デバイス",
+      "nameEn": "Device",
+      "description": "モニター、キーボード、マウスなどの入出力機器",
+      "icon": "monitor",
+      "subCategories": [
+        { "id": "monitor", "name": "モニター", "categoryId": "device" },
+        { "id": "keyboard", "name": "キーボード", "categoryId": "device" },
+        { "id": "mouse", "name": "マウス", "categoryId": "device" },
+        { "id": "headphone", "name": "イヤホン/ヘッドホン", "categoryId": "device" },
+        { "id": "webcam", "name": "Webカメラ", "categoryId": "device" },
+        { "id": "microphone", "name": "マイク", "categoryId": "device" },
+        { "id": "speaker", "name": "スピーカー", "categoryId": "device" }
+      ]
+    },
+    {
+      "id": "furniture",
+      "name": "家具",
+      "nameEn": "Furniture",
+      "description": "デスク、チェア、モニターアームなど",
+      "icon": "chair",
+      "subCategories": [
+        { "id": "desk", "name": "デスク", "categoryId": "furniture" },
+        { "id": "chair", "name": "チェア", "categoryId": "furniture" },
+        { "id": "monitor-arm", "name": "モニターアーム", "categoryId": "furniture" },
+        { "id": "cable-management", "name": "配線整理", "categoryId": "furniture" }
+      ]
+    },
+    {
+      "id": "lighting",
+      "name": "照明・インテリア",
+      "nameEn": "Lighting & Interior",
+      "description": "デスクライト、間接照明、デスクマットなど",
+      "icon": "lamp",
+      "subCategories": [
+        { "id": "desk-light", "name": "デスクライト", "categoryId": "lighting" },
+        { "id": "ambient-light", "name": "間接照明", "categoryId": "lighting" },
+        { "id": "desk-mat", "name": "デスクマット", "categoryId": "lighting" },
+        { "id": "plant", "name": "観葉植物", "categoryId": "lighting" },
+        { "id": "organizer", "name": "デスクオーガナイザー", "categoryId": "lighting" }
+      ]
+    }
+  ]
+}
