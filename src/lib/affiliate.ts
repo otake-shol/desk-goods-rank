@@ -3,7 +3,7 @@
  * 仕様書: specs/04-static-data.md
  */
 
-const DEFAULT_AMAZON_ASSOCIATE_TAG = 'deskitemrank-22'
+const DEFAULT_AMAZON_ASSOCIATE_TAG = 'otkshol01-22'
 
 /**
  * アフィリエイトタグを取得
