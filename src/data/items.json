@@ -8,7 +8,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop",
       "category": "device",
       "subCategory": "monitor",
-      "score": 95,
+      "score": 3,
       "amazon": {
         "asin": "B09V3JGWJ7",
         "url": "https://www.amazon.co.jp/dp/B09V3JGWJ7",
@@ -26,7 +26,12 @@
       "featured": true,
       "isNew": false,
       "createdAt": "2024-01-01",
-      "updatedAt": "2024-01-15"
+      "updatedAt": "2024-01-15",
+      "socialScore": {
+        "twitter": 8,
+        "youtube": 0,
+        "amazon": 50
+      }
     },
     {
       "id": "keyboard-hhkb-hybrid",
@@ -36,7 +41,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71qHq6NIqIL._AC_SX300_SY300_QL70_ML2_.jpg",
       "category": "device",
       "subCategory": "keyboard",
-      "score": 92,
+      "score": 24,
       "amazon": {
         "asin": "B082TYNNL2",
         "url": "https://www.amazon.co.jp/dp/B082TYNNL2",
@@ -53,7 +58,12 @@
       "featured": true,
       "isNew": false,
       "createdAt": "2024-01-05",
-      "updatedAt": "2024-01-10"
+      "updatedAt": "2024-01-10",
+      "socialScore": {
+        "twitter": 58,
+        "youtube": 3,
+        "amazon": 50
+      }
     },
     {
       "id": "mouse-logicool-mx-master3s",
@@ -63,7 +73,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop",
       "category": "device",
       "subCategory": "mouse",
-      "score": 90,
+      "score": 25,
       "amazon": {
         "asin": "B0B19VC66B",
         "url": "https://www.amazon.co.jp/dp/B0B19VC66B",
@@ -80,7 +90,12 @@
       "featured": true,
       "isNew": false,
       "createdAt": "2024-01-08",
-      "updatedAt": "2024-01-12"
+      "updatedAt": "2024-01-12",
+      "socialScore": {
+        "twitter": 60,
+        "youtube": 5,
+        "amazon": 50
+      }
     },
     {
       "id": "headphone-sony-wh1000xm5",
@@ -90,7 +105,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
       "category": "device",
       "subCategory": "headphone",
-      "score": 88,
+      "score": 46,
       "amazon": {
         "asin": "B0B1FDNW8L",
         "url": "https://www.amazon.co.jp/dp/B0B1FDNW8L",
@@ -107,7 +122,12 @@
       "featured": false,
       "isNew": true,
       "createdAt": "2024-01-14",
-      "updatedAt": "2024-01-14"
+      "updatedAt": "2024-01-14",
+      "socialScore": {
+        "twitter": 55,
+        "youtube": 15,
+        "amazon": 50
+      }
     },
     {
       "id": "desk-flexispot-e7",
@@ -117,7 +137,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&h=300&fit=crop",
       "category": "furniture",
       "subCategory": "desk",
-      "score": 91,
+      "score": 20,
       "amazon": {
         "asin": "B08H1XQKW7",
         "url": "https://www.amazon.co.jp/dp/B08H1XQKW7",
@@ -133,7 +153,12 @@
       "featured": true,
       "isNew": false,
       "createdAt": "2024-01-02",
-      "updatedAt": "2024-01-10"
+      "updatedAt": "2024-01-10",
+      "socialScore": {
+        "twitter": 45,
+        "youtube": 1,
+        "amazon": 50
+      }
     },
     {
       "id": "chair-ergohuman-pro",
@@ -143,7 +168,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=400&h=300&fit=crop",
       "category": "furniture",
       "subCategory": "chair",
-      "score": 87,
+      "score": 25,
       "amazon": {
         "asin": "B00B6IVSTA",
         "url": "https://www.amazon.co.jp/dp/B00B6IVSTA",
@@ -159,7 +184,12 @@
       "featured": false,
       "isNew": false,
       "createdAt": "2024-01-03",
-      "updatedAt": "2024-01-08"
+      "updatedAt": "2024-01-08",
+      "socialScore": {
+        "twitter": 52,
+        "youtube": 0,
+        "amazon": 50
+      }
     },
     {
       "id": "monitor-arm-ergotron-lx",
@@ -169,7 +199,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61lNUiCXqAL._AC_SY300_SX300_QL70_ML2_.jpg",
       "category": "furniture",
       "subCategory": "monitor-arm",
-      "score": 85,
+      "score": 19,
       "amazon": {
         "asin": "B00358RIRC",
         "url": "https://www.amazon.co.jp/dp/B00358RIRC",
@@ -185,7 +215,12 @@
       "featured": false,
       "isNew": true,
       "createdAt": "2024-01-13",
-      "updatedAt": "2024-01-13"
+      "updatedAt": "2024-01-13",
+      "socialScore": {
+        "twitter": 51,
+        "youtube": 0,
+        "amazon": 50
+      }
     },
     {
       "id": "desk-light-benq-screenbar",
@@ -195,7 +230,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=300&fit=crop",
       "category": "lighting",
       "subCategory": "desk-light",
-      "score": 89,
+      "score": 10,
       "amazon": {
         "asin": "B07PJ1BMPL",
         "url": "https://www.amazon.co.jp/dp/B07PJ1BMPL",
@@ -212,7 +247,12 @@
       "featured": true,
       "isNew": false,
       "createdAt": "2024-01-04",
-      "updatedAt": "2024-01-09"
+      "updatedAt": "2024-01-09",
+      "socialScore": {
+        "twitter": 11,
+        "youtube": 4,
+        "amazon": 50
+      }
     },
     {
       "id": "desk-mat-grovemade",
@@ -222,7 +262,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1616628188859-7a11abb6fcc9?w=400&h=300&fit=crop",
       "category": "lighting",
       "subCategory": "desk-mat",
-      "score": 82,
+      "score": 30,
       "amazon": {
         "asin": "B08QS64X7J",
         "url": "https://www.amazon.co.jp/dp/B08QS64X7J",
@@ -238,7 +278,12 @@
       "featured": false,
       "isNew": false,
       "createdAt": "2024-01-06",
-      "updatedAt": "2024-01-11"
+      "updatedAt": "2024-01-11",
+      "socialScore": {
+        "twitter": 80,
+        "youtube": 0,
+        "amazon": 50
+      }
     },
     {
       "id": "ambient-light-philips-hue",
@@ -248,7 +293,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1545127398-14699f92334b?w=400&h=300&fit=crop",
       "category": "lighting",
       "subCategory": "ambient-light",
-      "score": 80,
+      "score": 20,
       "amazon": {
         "asin": "B07GXBYYKK",
         "url": "https://www.amazon.co.jp/dp/B07GXBYYKK",
@@ -265,7 +310,12 @@
       "featured": false,
       "isNew": true,
       "createdAt": "2024-01-12",
-      "updatedAt": "2024-01-12"
+      "updatedAt": "2024-01-12",
+      "socialScore": {
+        "twitter": 54,
+        "youtube": 0,
+        "amazon": 50
+      }
     }
   ]
 }
