@@ -76,31 +76,37 @@ export function SearchSuggestions({
   }
 
   return (
-    <div className="absolute left-0 right-0 top-full z-50 mt-1 rounded-lg border border-gray-200 bg-white shadow-lg">
+    <div className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-xl border border-white/10 bg-[#1a1a24] shadow-xl shadow-black/50 backdrop-blur-sm">
       {isLoading ? (
-        <div className="p-3 text-center text-sm text-gray-500">
-          読み込み中...
+        <div className="p-3 text-center text-sm text-[#8888a0]">
+          <span className="inline-flex items-center gap-2">
+            <svg className="h-4 w-4 animate-spin" fill="none" viewBox="0 0 24 24">
+              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+            </svg>
+            読み込み中...
+          </span>
         </div>
       ) : (
-        <ul role="listbox">
+        <ul role="listbox" className="divide-y divide-white/5">
           {suggestions.map((suggestion, index) => (
             <li
               key={suggestion.id}
               role="option"
               aria-selected={index === selectedIndex}
-              className={`cursor-pointer px-4 py-3 ${
+              className={`cursor-pointer px-4 py-3 transition-colors ${
                 index === selectedIndex
-                  ? 'bg-gray-100'
-                  : 'hover:bg-gray-50'
+                  ? 'bg-white/10'
+                  : 'hover:bg-white/5'
               }`}
               onClick={() => handleSelect(suggestion)}
               onMouseEnter={() => onSelectIndex(index)}
             >
-              <div className="flex items-center justify-between">
-                <span className="font-medium text-gray-900">
+              <div className="flex items-center justify-between gap-3">
+                <span className="font-medium text-white">
                   {suggestion.name}
                 </span>
-                <span className="text-xs text-gray-500">
+                <span className="shrink-0 rounded-full border border-[#00d4ff]/30 bg-[#00d4ff]/10 px-2 py-0.5 text-xs text-[#00d4ff]">
                   {suggestion.category}
                 </span>
               </div>

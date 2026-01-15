@@ -62,25 +62,25 @@ export default async function CategoryPage({
   ]
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-[#0a0a0f]">
       <Header />
 
-      <main className="flex-1 bg-gray-50 py-8">
+      <main className="flex-1 py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* パンくずリスト */}
-          <nav className="mb-6 text-sm text-gray-500">
-            <Link href="/" className="hover:text-gray-700">
+          <nav className="mb-6 text-sm text-[#8888a0]">
+            <Link href="/" className="transition-colors hover:text-[#00d4ff]">
               ホーム
             </Link>
             <span className="mx-2">/</span>
-            <span className="text-gray-900">{category.name}</span>
+            <span className="text-white">{category.name}</span>
           </nav>
 
           {/* カテゴリヘッダー */}
           <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-900">{category.name}</h1>
-            <p className="mt-2 text-gray-600">{category.description}</p>
-            <p className="mt-1 text-sm text-gray-500">{totalCount}件のアイテム</p>
+            <h1 className="text-3xl font-bold text-white">{category.name}</h1>
+            <p className="mt-2 text-[#8888a0]">{category.description}</p>
+            <p className="mt-1 text-sm text-[#8888a0]">{totalCount}件のアイテム</p>
           </div>
 
           {/* フィルター・ソート */}
@@ -91,8 +91,8 @@ export default async function CategoryPage({
                 href={`/category/${id}${sort ? `?sort=${sort}` : ''}`}
                 className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
                   !sub
-                    ? 'bg-gray-900 text-white'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                    ? 'bg-[#00d4ff] text-[#0a0a0f]'
+                    : 'border border-white/10 bg-white/5 text-[#8888a0] hover:bg-white/10 hover:text-white'
                 }`}
               >
                 すべて
@@ -103,8 +103,8 @@ export default async function CategoryPage({
                   href={`/category/${id}?sub=${encodeURIComponent(subCat.name)}${sort ? `&sort=${sort}` : ''}`}
                   className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
                     sub === subCat.name
-                      ? 'bg-gray-900 text-white'
-                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                      ? 'bg-[#00d4ff] text-[#0a0a0f]'
+                      : 'border border-white/10 bg-white/5 text-[#8888a0] hover:bg-white/10 hover:text-white'
                   }`}
                 >
                   {subCat.name}
@@ -114,7 +114,7 @@ export default async function CategoryPage({
 
             {/* ソート */}
             <div className="ml-auto flex items-center gap-2">
-              <label htmlFor="sort" className="text-sm text-gray-600">
+              <label htmlFor="sort" className="text-sm text-[#8888a0]">
                 並び替え:
               </label>
               <select
@@ -126,7 +126,7 @@ export default async function CategoryPage({
                   url.searchParams.set('sort', newSort)
                   window.location.href = url.toString()
                 }}
-                className="rounded-md border border-gray-300 bg-white px-3 py-1.5 text-sm focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
+                className="rounded-lg border border-white/10 bg-[#1a1a24] px-3 py-1.5 text-sm text-white focus:border-[#00d4ff]/50 focus:outline-none focus:ring-1 focus:ring-[#00d4ff]/50"
               >
                 {sortOptions.map((opt) => (
                   <option key={opt.value} value={opt.value}>
@@ -145,8 +145,8 @@ export default async function CategoryPage({
               ))}
             </div>
           ) : (
-            <div className="rounded-lg bg-white p-8 text-center">
-              <p className="text-gray-500">
+            <div className="rounded-xl border border-white/10 bg-[#1a1a24] p-8 text-center">
+              <p className="text-[#8888a0]">
                 このカテゴリにはまだアイテムがありません。
               </p>
             </div>

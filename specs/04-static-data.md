@@ -1,10 +1,10 @@
 # 機能名: 静的データ管理（Phase 1）
 
 ## ステータス
-- [ ] 仕様確定
-- [ ] データ構造定義
-- [ ] サンプルデータ作成
-- [ ] 型定義完了
+- [x] 仕様確定
+- [x] データ構造定義
+- [x] サンプルデータ作成
+- [x] 型定義完了
 
 ## 概要
 Phase 1 では、データベースを使用せず JSON ファイルでアイテムデータを管理する。手動でキュレーションしたアイテムを静的データとして提供。
@@ -258,14 +258,14 @@ export function getAffiliateTag(): string {
 ```
 
 ## 受け入れ基準
-- [ ] Item 型が定義されている
-- [ ] Category 型が定義されている
-- [ ] items.json に最低10件のサンプルデータがある
-- [ ] categories.json に3カテゴリが定義されている
-- [ ] getTopRanking() がスコア順でアイテムを返す
-- [ ] getTopByCategory() がカテゴリ別に正しくフィルタする
-- [ ] アフィリエイトURLが正しい形式で生成される
-- [ ] TypeScript の型チェックが通る
+- [x] Item 型が定義されている
+- [x] Category 型が定義されている
+- [x] items.json に最低10件のサンプルデータがある
+- [x] categories.json に3カテゴリが定義されている
+- [x] getTopRanking() がスコア順でアイテムを返す
+- [x] getTopByCategory() がカテゴリ別に正しくフィルタする
+- [x] アフィリエイトURLが正しい形式で生成される
+- [x] TypeScript の型チェックが通る
 
 ## テストケース
 ```typescript

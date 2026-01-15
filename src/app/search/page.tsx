@@ -33,19 +33,19 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const { items, totalCount } = searchItemsWithCount(query)
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-[#0a0a0f]">
       <Header />
 
-      <main className="flex-1 bg-gray-50 py-8">
+      <main className="flex-1 py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* 検索結果ヘッダー */}
           <div className="mb-8">
             {query ? (
               <>
-                <h1 className="text-2xl font-bold text-gray-900">
-                  「{query}」の検索結果
+                <h1 className="text-2xl font-bold text-white">
+                  「<span className="text-[#00d4ff]">{query}</span>」の検索結果
                 </h1>
-                <p className="mt-2 text-gray-600">
+                <p className="mt-2 text-[#8888a0]">
                   {totalCount > 0
                     ? `${totalCount}件のアイテムが見つかりました`
                     : '該当するアイテムがありません'}
@@ -53,8 +53,8 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
               </>
             ) : (
               <>
-                <h1 className="text-2xl font-bold text-gray-900">検索</h1>
-                <p className="mt-2 text-gray-600">
+                <h1 className="text-2xl font-bold text-white">検索</h1>
+                <p className="mt-2 text-[#8888a0]">
                   キーワードを入力して検索してください
                 </p>
               </>
@@ -69,11 +69,11 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
               ))}
             </div>
           ) : query ? (
-            <div className="rounded-lg bg-white p-8 text-center">
-              <p className="text-gray-500">
-                「{query}」に一致するアイテムは見つかりませんでした。
+            <div className="rounded-xl border border-white/10 bg-[#1a1a24] p-8 text-center">
+              <p className="text-[#8888a0]">
+                「<span className="text-[#00d4ff]">{query}</span>」に一致するアイテムは見つかりませんでした。
               </p>
-              <p className="mt-2 text-sm text-gray-400">
+              <p className="mt-2 text-sm text-[#8888a0]/70">
                 別のキーワードで検索してみてください。
               </p>
             </div>

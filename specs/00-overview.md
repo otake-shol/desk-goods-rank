@@ -2,7 +2,7 @@
 
 ## ステータス
 - [x] 仕様確定
-- [ ] Phase 1 完了
+- [x] Phase 1 完了
 - [ ] Phase 2 完了
 - [ ] Phase 3 完了
 - [ ] Phase 4 完了

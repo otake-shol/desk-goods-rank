@@ -1,5 +1,5 @@
 /**
- * ヘッダーコンポーネント
+ * ヘッダーコンポーネント（ガジェット系デザイン）
  * 仕様書: specs/01-top-page.md, specs/07-search.md
  */
 
@@ -11,28 +11,33 @@ export function Header() {
   const categories = getAllCategories()
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-xl">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">
           {/* ロゴ */}
-          <Link href="/" className="flex items-center space-x-2 shrink-0">
-            <span className="text-xl font-bold text-gray-900">
-              DeskItemRank
+          <Link href="/" className="flex items-center gap-2 shrink-0">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-[#00d4ff] to-[#7c3aed]">
+              <svg className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+              </svg>
+            </div>
+            <span className="text-lg font-bold text-white">
+              DeskItem<span className="text-[#00d4ff]">Rank</span>
             </span>
           </Link>
 
           {/* 検索ボックス */}
-          <div className="hidden sm:block flex-1 max-w-md">
+          <div className="flex-1 max-w-md">
             <SearchBox />
           </div>
 
           {/* ナビゲーション */}
-          <nav className="hidden md:flex md:space-x-8 shrink-0">
+          <nav className="hidden md:flex md:items-center md:gap-1 shrink-0">
             {categories.map((category) => (
               <Link
                 key={category.id}
                 href={`/category/${category.id}`}
-                className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors"
+                className="rounded-lg px-4 py-2 text-sm font-medium text-[#8888a0] transition-colors hover:bg-white/5 hover:text-white"
               >
                 {category.name}
               </Link>
@@ -42,7 +47,7 @@ export function Header() {
           {/* モバイルメニューボタン */}
           <button
             type="button"
-            className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100"
+            className="md:hidden inline-flex items-center justify-center rounded-lg p-2 text-[#8888a0] transition-colors hover:bg-white/5 hover:text-white"
             aria-label="メニューを開く"
           >
             <svg

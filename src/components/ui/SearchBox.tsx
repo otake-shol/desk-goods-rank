@@ -1,7 +1,7 @@
 'use client'
 
 /**
- * 検索ボックスコンポーネント
+ * 検索ボックスコンポーネント（ガジェット系デザイン）
  * 仕様書: specs/07-search.md, specs/08-search-enhancement.md
  */
 
@@ -125,7 +125,7 @@ export function SearchBox({
         onBlur={handleBlur}
         onKeyDown={handleKeyDown}
         placeholder={placeholder}
-        className="w-full rounded-lg border border-gray-300 bg-white px-4 py-2 pl-10 text-sm text-gray-900 placeholder-gray-500 focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
+        className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 pl-10 text-sm text-white placeholder-[#8888a0] backdrop-blur-sm transition-all focus:border-[#00d4ff]/50 focus:bg-white/10 focus:outline-none focus:ring-1 focus:ring-[#00d4ff]/50"
         aria-label="検索"
         aria-expanded={isOpen && suggestions.length > 0}
         aria-autocomplete="list"
@@ -133,7 +133,7 @@ export function SearchBox({
         role="combobox"
       />
       <svg
-        className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400"
+        className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#8888a0]"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth="2"
