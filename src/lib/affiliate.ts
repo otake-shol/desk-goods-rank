@@ -3,8 +3,8 @@
  * 仕様書: specs/04-static-data.md
  */
 
-// アフィリエイトタグ（Amazon Associates承認後に設定）
-const DEFAULT_AMAZON_ASSOCIATE_TAG = ''
+// アフィリエイトタグ
+const DEFAULT_AMAZON_ASSOCIATE_TAG = 'otkshol01-22'
 
 /**
  * アフィリエイトタグを取得
