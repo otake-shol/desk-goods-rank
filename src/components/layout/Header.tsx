@@ -1,11 +1,10 @@
 /**
  * ヘッダーコンポーネント（ガジェット系デザイン）
- * 仕様書: specs/01-top-page.md, specs/07-search.md
+ * 仕様書: specs/01-top-page.md
  */
 
 import Link from 'next/link'
 import { getAllCategories } from '@/data'
-import { SearchBox } from '@/components/ui/SearchBox'
 
 export function Header() {
   const categories = getAllCategories()
@@ -32,11 +31,6 @@ export function Header() {
               デスク・グッズ・ランク
             </span>
           </Link>
-
-          {/* 検索ボックス */}
-          <div className="flex-1 max-w-md">
-            <SearchBox />
-          </div>
 
           {/* ナビゲーション */}
           <nav className="hidden md:flex md:items-center md:gap-1 shrink-0">
