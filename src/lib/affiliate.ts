@@ -5,6 +5,7 @@
 
 // アフィリエイトタグ
 const DEFAULT_AMAZON_ASSOCIATE_TAG = 'otkshol01-22'
+const DEFAULT_RAKUTEN_AFFILIATE_ID = '50170d1c.a90fadff.50170d1d.bf23456e'
 
 /**
  * アフィリエイトタグを取得
@@ -24,4 +25,21 @@ export function generateAmazonAffiliateUrl(asin: string): string {
     return `https://www.amazon.co.jp/dp/${asin}?tag=${tag}`
   }
   return `https://www.amazon.co.jp/dp/${asin}`
+}
+
+/**
+ * 楽天アフィリエイトIDを取得
+ */
+export function getRakutenAffiliateId(): string {
+  return process.env.NEXT_PUBLIC_RAKUTEN_AFFILIATE_ID || DEFAULT_RAKUTEN_AFFILIATE_ID
+}
+
+/**
+ * 楽天検索アフィリエイトURLを生成
+ * @param productName 商品名
+ */
+export function generateRakutenAffiliateUrl(productName: string): string {
+  const affiliateId = getRakutenAffiliateId()
+  const searchUrl = `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(productName)}/`
+  return `https://hb.afl.rakuten.co.jp/hgc/${affiliateId}/?pc=${encodeURIComponent(searchUrl)}`
 }

@@ -10,7 +10,7 @@ import Image from 'next/image'
 import { Header, Footer, RankingCard } from '@/components'
 import { ProductJsonLd, BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 import { getItemById, getCategoryById, getRelatedItems, getAllItems } from '@/data'
-import { generateAmazonAffiliateUrl } from '@/lib/affiliate'
+import { generateAmazonAffiliateUrl, generateRakutenAffiliateUrl } from '@/lib/affiliate'
 
 interface ItemPageProps {
   params: Promise<{ id: string }>
@@ -54,7 +54,8 @@ export default async function ItemPage({ params }: ItemPageProps) {
 
   const category = getCategoryById(item.category)
   const relatedItems = getRelatedItems(item.id, 4)
-  const affiliateUrl = generateAmazonAffiliateUrl(item.amazon.asin)
+  const amazonUrl = generateAmazonAffiliateUrl(item.amazon.asin)
+  const rakutenUrl = generateRakutenAffiliateUrl(item.name)
 
   const breadcrumbs = [
     { name: 'ホーム', url: '/' },
@@ -144,39 +145,55 @@ export default async function ItemPage({ params }: ItemPageProps) {
                   </div>
                 )}
 
-                {/* Amazonボタン */}
-                <a
-                  href={affiliateUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-auto group relative overflow-hidden rounded-xl bg-gradient-to-b from-[#f7dfa5] via-[#f0c14b] to-[#e4a831] px-6 py-4 shadow-md transition-all hover:shadow-xl hover:shadow-[#f0c14b]/30 active:scale-[0.98]"
-                >
-                  {/* 光沢エフェクト */}
-                  <div className="absolute inset-0 bg-gradient-to-b from-white/25 to-transparent opacity-100" />
+                {/* 購入ボタン */}
+                <div className="mt-auto flex flex-col gap-3">
+                  {/* Amazonボタン（メイン） */}
+                  <a
+                    href={amazonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group relative overflow-hidden rounded-xl bg-gradient-to-b from-[#f7dfa5] via-[#f0c14b] to-[#e4a831] px-6 py-4 shadow-md transition-all hover:shadow-xl hover:shadow-[#f0c14b]/30 active:scale-[0.98]"
+                  >
+                    {/* 光沢エフェクト */}
+                    <div className="absolute inset-0 bg-gradient-to-b from-white/25 to-transparent opacity-100" />
 
-                  <div className="relative flex items-center justify-center gap-3">
-                    {/* カートアイコン */}
-                    <svg className="h-6 w-6 text-[#111]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                    </svg>
+                    <div className="relative flex items-center justify-center gap-3">
+                      {/* カートアイコン */}
+                      <svg className="h-6 w-6 text-[#111]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg>
 
-                    <div className="flex flex-col items-start">
-                      <span className="text-sm font-bold text-[#111]">
-                        Amazonで購入する
-                      </span>
-                      {item.amazon.price && (
-                        <span className="text-xs font-medium text-[#111]/70">
-                          ¥{item.amazon.price.toLocaleString()}
+                      <div className="flex flex-col items-start">
+                        <span className="text-sm font-bold text-[#111]">
+                          Amazonで購入する
                         </span>
-                      )}
-                    </div>
+                        {item.amazon.price && (
+                          <span className="text-xs font-medium text-[#111]/70">
+                            ¥{item.amazon.price.toLocaleString()}
+                          </span>
+                        )}
+                      </div>
 
-                    {/* 矢印 */}
-                    <svg className="h-4 w-4 text-[#111]/60 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      {/* 矢印 */}
+                      <svg className="h-4 w-4 text-[#111]/60 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
+                  </a>
+
+                  {/* 楽天ボタン（サブ） */}
+                  <a
+                    href={rakutenUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center justify-center gap-2 rounded-lg border border-[#BF0000]/30 bg-[#BF0000]/10 px-4 py-2.5 text-sm font-medium text-[#BF0000] transition-all hover:border-[#BF0000]/50 hover:bg-[#BF0000]/20 active:scale-[0.98]"
+                  >
+                    <span>楽天市場で見る</span>
+                    <svg className="h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
-                  </div>
-                </a>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
