@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { WebSiteJsonLd, OrganizationJsonLd } from '@/components/seo/JsonLd'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://deskgoodsrank.com'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://desk-goods-rank.vercel.app'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

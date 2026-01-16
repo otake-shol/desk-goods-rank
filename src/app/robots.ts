@@ -5,7 +5,7 @@
 
 import { MetadataRoute } from 'next'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://deskgoodsrank.com'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://desk-goods-rank.vercel.app'
 
 export default function robots(): MetadataRoute.Robots {
   return {
