@@ -73,13 +73,17 @@ export function RankingCard({ item, showRank = true }: RankingCardProps) {
         </p>
 
         {/* 価格 */}
-        {item.amazon.price && (
-          <div className="mt-1.5">
+        <div className="mt-1.5">
+          {item.amazon.price ? (
             <span className="text-xs font-semibold text-white">
               ¥{item.amazon.price.toLocaleString()}
             </span>
-          </div>
-        )}
+          ) : (
+            <span className="text-xs text-[#8888a0]">
+              価格はAmazonで確認
+            </span>
+          )}
+        </div>
 
         {/* Amazonリンク */}
         <a

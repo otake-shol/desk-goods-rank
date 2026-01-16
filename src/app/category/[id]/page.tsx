@@ -7,6 +7,7 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Header, Footer, RankingCard } from '@/components'
+import { SortSelect } from '@/components/ui/SortSelect'
 import { getItemsByCategory, getAllCategories } from '@/data'
 import { CategoryId } from '@/types/category'
 import { SortBy } from '@/data'
@@ -29,11 +30,11 @@ export async function generateMetadata({
   const { category } = getItemsByCategory(id as CategoryId)
 
   if (!category) {
-    return { title: 'カテゴリが見つかりません - DeskItemRank' }
+    return { title: 'カテゴリが見つかりません - DeskGoodsRanks' }
   }
 
   return {
-    title: `${category.name}ランキング - DeskItemRank`,
+    title: `${category.name}ランキング - DeskGoodsRanks`,
     description: `${category.name}カテゴリのデスクアイテムランキング。${category.description}`,
   }
 }
@@ -53,13 +54,6 @@ export default async function CategoryPage({
   if (!category) {
     notFound()
   }
-
-  const sortOptions: { value: SortBy; label: string }[] = [
-    { value: 'score', label: 'スコア順' },
-    { value: 'newest', label: '新着順' },
-    { value: 'price_asc', label: '価格（安い順）' },
-    { value: 'price_desc', label: '価格（高い順）' },
-  ]
 
   return (
     <div className="flex min-h-screen flex-col bg-[#0a0a0f]">
@@ -113,28 +107,7 @@ export default async function CategoryPage({
             </div>
 
             {/* ソート */}
-            <div className="ml-auto flex items-center gap-2">
-              <label htmlFor="sort" className="text-sm text-[#8888a0]">
-                並び替え:
-              </label>
-              <select
-                id="sort"
-                defaultValue={sort || 'score'}
-                onChange={(e) => {
-                  const newSort = e.target.value
-                  const url = new URL(window.location.href)
-                  url.searchParams.set('sort', newSort)
-                  window.location.href = url.toString()
-                }}
-                className="rounded-lg border border-white/10 bg-[#1a1a24] px-3 py-1.5 text-sm text-white focus:border-[#00d4ff]/50 focus:outline-none focus:ring-1 focus:ring-[#00d4ff]/50"
-              >
-                {sortOptions.map((opt) => (
-                  <option key={opt.value} value={opt.value}>
-                    {opt.label}
-                  </option>
-                ))}
-              </select>
-            </div>
+            <SortSelect defaultValue={sort || 'score'} />
           </div>
 
           {/* アイテム一覧 */}

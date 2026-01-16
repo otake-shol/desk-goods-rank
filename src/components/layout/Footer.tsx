@@ -18,14 +18,21 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           {/* サイト説明 */}
           <div className="md:col-span-2">
-            <Link href="/" className="inline-flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-[#00d4ff] to-[#7c3aed]">
-                <svg className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+            <Link href="/" className="inline-flex items-center gap-2.5 group">
+              <div className="relative h-8 w-8">
+                <svg viewBox="0 0 32 32" fill="none" className="h-8 w-8">
+                  {/* モニター */}
+                  <rect x="2" y="4" width="22" height="16" rx="2" fill="#1a1a24" stroke="#00d4ff" strokeWidth="1.5" className="group-hover:stroke-white transition-colors"/>
+                  <rect x="4" y="6" width="18" height="12" rx="1" fill="#12121a"/>
+                  {/* スタンド */}
+                  <path d="M10 20v3h6v-3" stroke="#00d4ff" strokeWidth="1.5" strokeLinecap="round" className="group-hover:stroke-white transition-colors"/>
+                  <path d="M8 23h10" stroke="#00d4ff" strokeWidth="1.5" strokeLinecap="round" className="group-hover:stroke-white transition-colors"/>
+                  {/* 星 */}
+                  <path d="M26 6l1.2 2.4 2.6.4-1.9 1.8.4 2.6-2.3-1.2-2.3 1.2.4-2.6-1.9-1.8 2.6-.4L26 6z" fill="#ffd700"/>
                 </svg>
               </div>
-              <span className="text-lg font-bold text-white">
-                DeskItem<span className="text-[#00d4ff]">Rank</span>
+              <span className="text-base font-semibold text-white tracking-tight">
+                DeskGoodsRanks
               </span>
             </Link>
             <p className="mt-4 text-sm text-[#8888a0]">
@@ -95,7 +102,7 @@ export function Footer() {
         {/* コピーライト */}
         <div className="mt-8 border-t border-white/5 pt-8 text-center">
           <p className="text-xs text-[#8888a0]">
-            &copy; {currentYear} DeskItemRank. All rights reserved.
+            &copy; {currentYear} DeskGoodsRanks. All rights reserved.
           </p>
         </div>
       </div>

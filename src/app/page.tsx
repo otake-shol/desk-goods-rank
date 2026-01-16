@@ -19,11 +19,11 @@ import {
 } from '@/data'
 
 export const metadata: Metadata = {
-  title: 'DeskItemRank - デスク環境アイテム人気ランキング',
+  title: 'DeskGoodsRanks - デスク環境アイテム人気ランキング',
   description:
     'SNS・YouTube・Amazonのデータをもとに、デスク環境を充実させるアイテムの人気ランキングをお届け。モニター、キーボード、チェアなど、本当に人気のアイテムが見つかります。',
   openGraph: {
-    title: 'DeskItemRank - デスク環境アイテム人気ランキング',
+    title: 'DeskGoodsRanks - デスク環境アイテム人気ランキング',
     description:
       'SNS・YouTube・Amazonのデータをもとに、本当に人気のデスクアイテムをランキング形式でお届け。',
     type: 'website',

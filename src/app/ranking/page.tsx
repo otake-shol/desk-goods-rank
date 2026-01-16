@@ -9,7 +9,7 @@ import { RankingCard } from '@/components/ui/RankingCard'
 import { getTopRanking, getAllCategories } from '@/data'
 
 export const metadata: Metadata = {
-  title: '全アイテムランキング | DeskItemRank',
+  title: '全アイテムランキング | DeskGoodsRanks',
   description:
     'デスク環境アイテムの人気ランキング一覧。SNS・YouTube・note・Amazonのデータをもとに算出したスコアで順位付け。',
 }

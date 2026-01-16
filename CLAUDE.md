@@ -1,4 +1,4 @@
-# DeskItemRank - 仕様駆動開発ルール
+# DeskGoodsRanks - 仕様駆動開発ルール
 
 ## プロジェクト概要
 デスク環境アイテムの人気ランキングサイト。X/Twitter、YouTube、Amazon、手動キュレーションからデータを収集し、ランキング形式で表示。Amazon アフィリエイトで収益化。

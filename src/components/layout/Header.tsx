@@ -29,7 +29,7 @@ export function Header() {
               </svg>
             </div>
             <span className="text-base font-semibold text-white tracking-tight">
-              DeskItemRank
+              DeskGoodsRanks
             </span>
           </Link>
 

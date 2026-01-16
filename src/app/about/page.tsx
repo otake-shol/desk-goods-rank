@@ -7,9 +7,9 @@ import Link from 'next/link'
 import { Header, Footer } from '@/components'
 
 export const metadata: Metadata = {
-  title: 'ランキングの仕組み | DeskItemRank',
+  title: 'ランキングの仕組み | DeskGoodsRanks',
   description:
-    'DeskItemRankのスコア算出方法を解説。SNS・YouTube・note・Amazonの4つのソースからデータを収集し、独自のアルゴリズムでランキングを算出しています。',
+    'DeskGoodsRanksのスコア算出方法を解説。SNS・YouTube・note・Amazonの4つのソースからデータを収集し、独自のアルゴリズムでランキングを算出しています。',
 }
 
 export default function AboutPage() {
@@ -32,7 +32,7 @@ export default function AboutPage() {
               </h1>
             </div>
             <p className="text-[#8888a0] text-lg">
-              DeskItemRankでは、複数のデータソースから情報を収集し、<br className="hidden sm:block" />
+              DeskGoodsRanksでは、複数のデータソースから情報を収集し、<br className="hidden sm:block" />
               独自のアルゴリズムでスコアを算出しています。
             </p>
           </div>

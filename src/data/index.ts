@@ -9,10 +9,10 @@ import { Item } from '@/types/item'
 import { Category, CategoryId } from '@/types/category'
 
 /**
- * 全アイテム取得
+ * 全アイテム取得（画像がないアイテムは除外）
  */
 export function getAllItems(): Item[] {
-  return itemsData.items as Item[]
+  return (itemsData.items as Item[]).filter((item) => item.imageUrl)
 }
 
 /**
