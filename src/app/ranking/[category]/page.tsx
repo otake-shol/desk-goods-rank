@@ -27,11 +27,11 @@ export async function generateMetadata({
   const categoryData = getCategoryById(category as CategoryId)
 
   if (!categoryData) {
-    return { title: 'カテゴリが見つかりません - DeskGoodsRanks' }
+    return { title: 'カテゴリが見つかりません - DeskGoodsRank' }
   }
 
   return {
-    title: `${categoryData.name}ランキング | DeskGoodsRanks`,
+    title: `${categoryData.name}ランキング | DeskGoodsRank`,
     description: `${categoryData.name}カテゴリのデスクアイテム人気ランキング。${categoryData.description}`,
   }
 }

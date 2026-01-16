@@ -28,11 +28,11 @@ export async function generateMetadata({
   const item = getItemById(id)
 
   if (!item) {
-    return { title: 'アイテムが見つかりません - DeskGoodsRanks' }
+    return { title: 'アイテムが見つかりません - DeskGoodsRank' }
   }
 
   return {
-    title: `${item.name} - DeskGoodsRanks`,
+    title: `${item.name} - DeskGoodsRank`,
     description: `${item.name}の詳細情報。スコア: ${item.score}点`,
   }
 }

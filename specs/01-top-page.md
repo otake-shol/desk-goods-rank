@@ -108,7 +108,7 @@ interface TopPageData {
 | desktop (> 1024px) | 3カラム、フル表示 |
 
 ## SEO 要件
-- title: 「DeskGoodsRanks - デスク環境アイテム人気ランキング」
+- title: 「DeskGoodsRank - デスク環境アイテム人気ランキング」
 - meta description: サイト説明文
 - OGP 設定（title, description, image）
 - 構造化データ（ItemList）

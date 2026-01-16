@@ -19,8 +19,8 @@ export async function generateMetadata({
 
   return {
     title: query
-      ? `「${query}」の検索結果 - DeskGoodsRanks`
-      : '検索 - DeskGoodsRanks',
+      ? `「${query}」の検索結果 - DeskGoodsRank`
+      : '検索 - DeskGoodsRank',
     description: query
       ? `「${query}」に関連するデスクアイテムの検索結果`
       : 'デスクアイテムを検索',

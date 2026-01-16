@@ -32,7 +32,7 @@ export function Footer() {
                 </svg>
               </div>
               <span className="text-base font-semibold text-white tracking-tight">
-                DeskGoodsRanks
+                DeskGoodsRank
               </span>
             </Link>
             <p className="mt-4 text-sm text-[#8888a0]">
@@ -102,7 +102,7 @@ export function Footer() {
         {/* コピーライト */}
         <div className="mt-8 border-t border-white/5 pt-8 text-center">
           <p className="text-xs text-[#8888a0]">
-            &copy; {currentYear} DeskGoodsRanks. All rights reserved.
+            &copy; {currentYear} DeskGoodsRank. All rights reserved.
           </p>
         </div>
       </div>

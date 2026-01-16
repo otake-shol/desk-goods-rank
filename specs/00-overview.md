@@ -1,4 +1,4 @@
-# プロジェクト概要: DeskGoodsRanks
+# プロジェクト概要: DeskGoodsRank
 
 ## ステータス
 - [x] 仕様確定
