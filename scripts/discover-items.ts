@@ -13,11 +13,19 @@
  *   npx tsx scripts/discover-items.ts --kakaku-only # 価格.comのみ
  *   npx tsx scripts/discover-items.ts --makuake-only # Makuakeのみ
  *   npx tsx scripts/discover-items.ts --all       # 全ソース
+ *   npx tsx scripts/discover-items.ts --force     # 探索済み記事も再探索
+ *   npx tsx scripts/discover-items.ts --clear-cache # 探索済みキャッシュをクリア
  */
 
 import * as fs from 'fs'
 import * as path from 'path'
 import { fetchNoteArticles, NoteArticle } from './collectors/note'
+import {
+  filterUnexploredArticles,
+  addExploredUrls,
+  getExploredSummary,
+  clearExploredArticles,
+} from './collectors/explored-articles'
 import {
   extractAsinsFromNoteArticle,
   extractAsinsFromYouTubeDescription,
@@ -38,14 +46,34 @@ interface ExistingItem {
   }
 }
 
-async function discoverFromNote(existingAsins: Set<string>): Promise<DiscoveredItem[]> {
+async function discoverFromNote(existingAsins: Set<string>, forceMode: boolean = false): Promise<DiscoveredItem[]> {
   console.log('\n📝 note.comからアイテムを発見中...\n')
 
-  const articles = await fetchNoteArticles()
-  console.log(`  ${articles.length}件の記事を取得`)
+  const allArticles = await fetchNoteArticles()
+  console.log(`  ${allArticles.length}件の記事を取得`)
+
+  // 探索済み記事をフィルタリング
+  let articles: NoteArticle[]
+  if (forceMode) {
+    articles = allArticles
+    console.log('  🔄 強制モード: 全記事を再探索')
+  } else {
+    const { unexplored, skipped } = filterUnexploredArticles('note', allArticles)
+    articles = unexplored
+    if (skipped > 0) {
+      console.log(`  ⏭️  ${skipped}件の探索済み記事をスキップ`)
+    }
+    console.log(`  📋 ${articles.length}件の未探索記事を処理`)
+  }
+
+  if (articles.length === 0) {
+    console.log('  ✅ 全ての記事が探索済みです')
+    return []
+  }
 
   const discoveredItems: Map<string, DiscoveredItem> = new Map()
   let processedCount = 0
+  const processedUrls: string[] = []
 
   for (const article of articles) {
     processedCount++
@@ -53,6 +81,7 @@ async function discoverFromNote(existingAsins: Set<string>): Promise<DiscoveredI
 
     try {
       const { asins, title } = await extractAsinsFromNoteArticle(article.url)
+      processedUrls.push(article.url)
 
       for (const asin of asins) {
         // 既存アイテムはスキップ
@@ -82,13 +111,20 @@ async function discoverFromNote(existingAsins: Set<string>): Promise<DiscoveredI
       await new Promise(resolve => setTimeout(resolve, 1500))
     } catch (error) {
       console.log(`    ❌ エラー: ${error}`)
+      processedUrls.push(article.url) // エラーでも探索済みとしてマーク
     }
+  }
+
+  // 探索済みURLを保存
+  if (processedUrls.length > 0) {
+    addExploredUrls('note', processedUrls)
+    console.log(`  💾 ${processedUrls.length}件の記事を探索済みとして保存`)
   }
 
   return Array.from(discoveredItems.values())
 }
 
-async function discoverFromYouTube(existingAsins: Set<string>): Promise<DiscoveredItem[]> {
+async function discoverFromYouTube(existingAsins: Set<string>, forceMode: boolean = false): Promise<DiscoveredItem[]> {
   const apiKey = process.env.YOUTUBE_API_KEY
 
   if (!apiKey) {
@@ -107,6 +143,23 @@ async function discoverFromYouTube(existingAsins: Set<string>): Promise<Discover
   ]
 
   const discoveredItems: Map<string, DiscoveredItem> = new Map()
+  const { unexplored: _, skipped: exploredCount } = filterUnexploredArticles('youtube', [])
+  const exploredUrls = forceMode ? new Set<string>() : new Set(
+    Array.from({ length: exploredCount }).map(() => '')
+  )
+  const processedUrls: string[] = []
+
+  // 探索済みURLを事前に取得
+  const { unexplored } = filterUnexploredArticles('youtube',
+    searchQueries.map(q => ({ url: q }))
+  )
+  const exploredVideoUrls = new Set<string>()
+  if (!forceMode) {
+    const summary = getExploredSummary()
+    if (summary.youtube > 0) {
+      console.log(`  📊 ${summary.youtube}件の探索済み動画があります`)
+    }
+  }
 
   for (const query of searchQueries) {
     console.log(`  🔍 検索: "${query}"`)
@@ -124,14 +177,29 @@ async function discoverFromYouTube(existingAsins: Set<string>): Promise<Discover
 
       if (!data.items) continue
 
-      for (const item of data.items) {
-        const videoId = item.id?.videoId
+      // 探索済みフィルタリング
+      const videoItems = data.items.map((item: { id?: { videoId?: string }; snippet?: { title?: string } }) => ({
+        url: `https://www.youtube.com/watch?v=${item.id?.videoId}`,
+        videoId: item.id?.videoId,
+        title: item.snippet?.title || '',
+      })).filter((v: { videoId?: string }) => v.videoId)
+
+      const { unexplored: unexploredVideos, skipped } = forceMode
+        ? { unexplored: videoItems, skipped: 0 }
+        : filterUnexploredArticles('youtube', videoItems)
+
+      if (skipped > 0) {
+        console.log(`    ⏭️  ${skipped}件の探索済み動画をスキップ`)
+      }
+
+      for (const video of unexploredVideos) {
+        const videoId = video.videoId
         if (!videoId) continue
 
-        const videoTitle = item.snippet?.title || ''
-        console.log(`    📹 ${videoTitle.substring(0, 40)}...`)
+        console.log(`    📹 ${video.title.substring(0, 40)}...`)
 
         const { asins, title, viewCount } = await extractAsinsFromYouTubeDescription(videoId, apiKey)
+        processedUrls.push(video.url)
 
         for (const asin of asins) {
           if (existingAsins.has(asin)) {
@@ -147,8 +215,8 @@ async function discoverFromYouTube(existingAsins: Set<string>): Promise<Discover
             discoveredItems.set(asin, {
               asin,
               sourceType: 'youtube',
-              sourceUrl: `https://www.youtube.com/watch?v=${videoId}`,
-              sourceTitle: title || videoTitle,
+              sourceUrl: video.url,
+              sourceTitle: title || video.title,
               mentionCount: 1,
               totalEngagement: viewCount,
             })
@@ -164,14 +232,20 @@ async function discoverFromYouTube(existingAsins: Set<string>): Promise<Discover
     }
   }
 
+  // 探索済みURLを保存
+  if (processedUrls.length > 0) {
+    addExploredUrls('youtube', processedUrls)
+    console.log(`  💾 ${processedUrls.length}件の動画を探索済みとして保存`)
+  }
+
   return Array.from(discoveredItems.values())
 }
 
-async function discoverFromZenn(existingAsins: Set<string>): Promise<DiscoveredItem[]> {
+async function discoverFromZenn(existingAsins: Set<string>, forceMode: boolean = false): Promise<DiscoveredItem[]> {
   console.log('\n📗 Zennからアイテムを発見中...\n')
 
   try {
-    const items = await discoverItemsFromZenn()
+    const items = await discoverItemsFromZenn(forceMode)
     return items.filter(item => !existingAsins.has(item.asin))
   } catch (error) {
     console.log(`  ❌ Zenn取得エラー: ${error}`)
@@ -179,11 +253,11 @@ async function discoverFromZenn(existingAsins: Set<string>): Promise<DiscoveredI
   }
 }
 
-async function discoverFromHatena(existingAsins: Set<string>): Promise<DiscoveredItem[]> {
+async function discoverFromHatena(existingAsins: Set<string>, forceMode: boolean = false): Promise<DiscoveredItem[]> {
   console.log('\n📙 はてなブログからアイテムを発見中...\n')
 
   try {
-    const items = await discoverItemsFromHatena()
+    const items = await discoverItemsFromHatena(forceMode)
     return items.filter(item => !existingAsins.has(item.asin))
   } catch (error) {
     console.log(`  ❌ はてなブログ取得エラー: ${error}`)
@@ -247,7 +321,32 @@ async function main() {
   const amazonOnly = args.includes('--amazon-only')
   const kakakuOnly = args.includes('--kakaku-only')
   const makuakeOnly = args.includes('--makuake-only')
+  const forceMode = args.includes('--force')
+  const clearCache = args.includes('--clear-cache')
   const allSources = args.includes('--all') || (!noteOnly && !youtubeOnly && !zennOnly && !hatenaOnly && !amazonOnly && !kakakuOnly && !makuakeOnly)
+
+  // キャッシュクリアモード
+  if (clearCache) {
+    console.log('🗑️  探索済みキャッシュをクリアしています...')
+    clearExploredArticles()
+    console.log('✅ キャッシュをクリアしました\n')
+  }
+
+  // 探索済み記事のサマリーを表示
+  const exploredSummary = getExploredSummary()
+  const totalExplored = Object.values(exploredSummary).reduce((a, b) => a + b, 0)
+  if (totalExplored > 0 && !forceMode) {
+    console.log('📊 探索済み記事数:')
+    console.log(`   note: ${exploredSummary.note}件`)
+    console.log(`   YouTube: ${exploredSummary.youtube}件`)
+    console.log(`   Zenn: ${exploredSummary.zenn}件`)
+    console.log(`   はてな: ${exploredSummary.hatena}件`)
+    console.log('   (これらの記事はスキップされます。--force で再探索可能)\n')
+  }
+
+  if (forceMode) {
+    console.log('🔄 強制モード: 全ての記事を再探索します\n')
+  }
 
   // 既存アイテムのASINを取得
   const itemsPath = path.join(__dirname, '../src/data/items.json')
@@ -263,25 +362,25 @@ async function main() {
 
   // 各ソースから発見
   if (noteOnly || allSources) {
-    const noteItems = await discoverFromNote(existingAsins)
+    const noteItems = await discoverFromNote(existingAsins, forceMode)
     allDiscovered.push(...noteItems)
     console.log(`  📝 note.com: ${noteItems.length}件発見`)
   }
 
   if (youtubeOnly || allSources) {
-    const youtubeItems = await discoverFromYouTube(existingAsins)
+    const youtubeItems = await discoverFromYouTube(existingAsins, forceMode)
     allDiscovered.push(...youtubeItems)
     console.log(`  📺 YouTube: ${youtubeItems.length}件発見`)
   }
 
   if (zennOnly || allSources) {
-    const zennItems = await discoverFromZenn(existingAsins)
+    const zennItems = await discoverFromZenn(existingAsins, forceMode)
     allDiscovered.push(...zennItems)
     console.log(`  📗 Zenn: ${zennItems.length}件発見`)
   }
 
   if (hatenaOnly || allSources) {
-    const hatenaItems = await discoverFromHatena(existingAsins)
+    const hatenaItems = await discoverFromHatena(existingAsins, forceMode)
     allDiscovered.push(...hatenaItems)
     console.log(`  📙 はてなブログ: ${hatenaItems.length}件発見`)
   }

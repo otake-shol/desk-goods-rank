@@ -5,6 +5,7 @@
 
 import { chromium } from 'playwright'
 import { extractAsinsFromText, DiscoveredItem } from './item-discovery'
+import { filterUnexploredArticles, addExploredUrls, getExploredSummary } from './explored-articles'
 
 export interface HatenaArticle {
   url: string
@@ -186,26 +187,63 @@ export async function extractAsinsFromHatenaArticle(articleUrl: string): Promise
 /**
  * はてなブログからデスクツアー関連アイテムを発見
  */
-export async function discoverItemsFromHatena(): Promise<DiscoveredItem[]> {
+export async function discoverItemsFromHatena(forceMode: boolean = false): Promise<DiscoveredItem[]> {
   const searchQueries = [
+    // メインキーワード
     'デスクツアー',
     'デスク環境 紹介',
     'リモートワーク デスク',
     'ガジェット 買ってよかった',
     '在宅ワーク 環境',
     '作業環境 紹介',
+    // 追加キーワード - 仕事・職種系
+    'テレワーク 環境',
+    '在宅勤務 デスク',
+    'ホームオフィス',
+    'エンジニア デスク',
+    'デザイナー 作業環境',
+    'フリーランス デスク',
+    // 追加キーワード - 製品カテゴリ系
+    '買ってよかった PC周辺機器',
+    'おすすめ モニター',
+    'おすすめ キーボード',
+    'おすすめ マウス',
+    '電動昇降デスク レビュー',
+    'オフィスチェア おすすめ',
+    // 追加キーワード - 年度別
+    '2024 ベストバイ ガジェット',
+    '2025 デスク環境',
+    'ガジェット まとめ',
   ]
 
   const discoveredItems: Map<string, DiscoveredItem> = new Map()
   const processedUrls: Set<string> = new Set()
+  const newlyProcessedUrls: string[] = []
 
   console.log('Searching Hatena Blog articles...')
+
+  // 探索済み記事数を表示
+  if (!forceMode) {
+    const summary = getExploredSummary()
+    if (summary.hatena > 0) {
+      console.log(`  📊 ${summary.hatena}件の探索済み記事があります`)
+    }
+  }
 
   // 検索からの記事
   for (const query of searchQueries) {
     console.log(`  Searching: ${query}`)
-    const articles = await searchHatenaArticles(query, 10)
-    console.log(`  Found ${articles.length} articles`)
+    const allArticles = await searchHatenaArticles(query, 10)
+    console.log(`  Found ${allArticles.length} articles`)
+
+    // 探索済み記事をフィルタリング
+    const { unexplored: articles, skipped } = forceMode
+      ? { unexplored: allArticles, skipped: 0 }
+      : filterUnexploredArticles('hatena', allArticles)
+
+    if (skipped > 0) {
+      console.log(`  ⏭️  ${skipped}件の探索済み記事をスキップ`)
+    }
 
     for (const article of articles) {
       if (processedUrls.has(article.url)) continue
@@ -213,6 +251,7 @@ export async function discoverItemsFromHatena(): Promise<DiscoveredItem[]> {
 
       console.log(`  Processing: ${article.title.substring(0, 40)}...`)
       const { asins, title, bookmarks } = await extractAsinsFromHatenaArticle(article.url)
+      newlyProcessedUrls.push(article.url)
 
       if (asins.length > 0) {
         console.log(`    Found ${asins.length} ASINs`)
@@ -242,8 +281,17 @@ export async function discoverItemsFromHatena(): Promise<DiscoveredItem[]> {
 
   // ホットエントリーからも取得
   console.log('Fetching Hatena hot entries...')
-  const hotArticles = await getHatenaHotEntries()
-  console.log(`  Found ${hotArticles.length} relevant hot entries`)
+  const allHotArticles = await getHatenaHotEntries()
+  console.log(`  Found ${allHotArticles.length} relevant hot entries`)
+
+  // 探索済みホットエントリーをフィルタリング
+  const { unexplored: hotArticles, skipped: hotSkipped } = forceMode
+    ? { unexplored: allHotArticles, skipped: 0 }
+    : filterUnexploredArticles('hatena', allHotArticles)
+
+  if (hotSkipped > 0) {
+    console.log(`  ⏭️  ${hotSkipped}件の探索済みホットエントリーをスキップ`)
+  }
 
   for (const article of hotArticles) {
     if (processedUrls.has(article.url)) continue
@@ -251,6 +299,7 @@ export async function discoverItemsFromHatena(): Promise<DiscoveredItem[]> {
 
     console.log(`  Processing hot: ${article.title.substring(0, 40)}...`)
     const { asins, title } = await extractAsinsFromHatenaArticle(article.url)
+    newlyProcessedUrls.push(article.url)
 
     if (asins.length > 0) {
       console.log(`    Found ${asins.length} ASINs`)
@@ -274,6 +323,12 @@ export async function discoverItemsFromHatena(): Promise<DiscoveredItem[]> {
     }
 
     await new Promise(resolve => setTimeout(resolve, 2000))
+  }
+
+  // 探索済みURLを保存
+  if (newlyProcessedUrls.length > 0) {
+    addExploredUrls('hatena', newlyProcessedUrls)
+    console.log(`  💾 ${newlyProcessedUrls.length}件の記事を探索済みとして保存`)
   }
 
   console.log(`Discovered ${discoveredItems.size} unique items from Hatena`)

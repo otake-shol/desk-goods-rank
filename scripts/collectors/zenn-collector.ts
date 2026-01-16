@@ -5,6 +5,7 @@
 
 import { chromium, Browser, Page } from 'playwright'
 import { extractAsinsFromText, DiscoveredItem } from './item-discovery'
+import { filterUnexploredArticles, addExploredUrls, getExploredSummary } from './explored-articles'
 
 export interface ZennArticle {
   url: string
@@ -135,8 +136,9 @@ export async function extractAsinsFromZennArticle(articleUrl: string): Promise<{
 /**
  * Zennからデスクツアー関連アイテムを発見
  */
-export async function discoverItemsFromZenn(): Promise<DiscoveredItem[]> {
+export async function discoverItemsFromZenn(forceMode: boolean = false): Promise<DiscoveredItem[]> {
   const searchQueries = [
+    // メインキーワード
     'デスクツアー',
     'デスク環境',
     'デスクセットアップ',
@@ -145,25 +147,64 @@ export async function discoverItemsFromZenn(): Promise<DiscoveredItem[]> {
     '在宅ワーク デスク',
     '開発環境 デスク',
     'エンジニア デスク',
+    // 追加キーワード - 仕事・職種系
+    'テレワーク 環境',
+    '在宅勤務 デスク',
+    'ホームオフィス 紹介',
+    'デザイナー デスク',
+    'ライター 仕事環境',
+    'フリーランス 作業環境',
+    // 追加キーワード - 製品カテゴリ系
+    '買ってよかった ガジェット',
+    'おすすめ ガジェット',
+    'モニター おすすめ',
+    'キーボード レビュー',
+    'マウス おすすめ',
+    '電動昇降デスク',
+    'オフィスチェア おすすめ',
+    'モニターアーム',
+    // 追加キーワード - 年度別
+    '2024 ガジェット',
+    '2025 デスク環境',
+    'ベストバイ ガジェット',
   ]
 
   const discoveredItems: Map<string, DiscoveredItem> = new Map()
   const processedUrls: Set<string> = new Set()
+  const newlyProcessedUrls: string[] = []
 
   console.log('Searching Zenn articles...')
 
+  // 探索済み記事数を表示
+  if (!forceMode) {
+    const summary = getExploredSummary()
+    if (summary.zenn > 0) {
+      console.log(`  📊 ${summary.zenn}件の探索済み記事があります`)
+    }
+  }
+
   for (const query of searchQueries) {
     console.log(`  Searching: ${query}`)
-    const articles = await searchZennArticles(query, 15)
-    console.log(`  Found ${articles.length} articles`)
+    const allArticles = await searchZennArticles(query, 15)
+    console.log(`  Found ${allArticles.length} articles`)
+
+    // 探索済み記事をフィルタリング
+    const { unexplored: articles, skipped } = forceMode
+      ? { unexplored: allArticles, skipped: 0 }
+      : filterUnexploredArticles('zenn', allArticles)
+
+    if (skipped > 0) {
+      console.log(`  ⏭️  ${skipped}件の探索済み記事をスキップ`)
+    }
 
     for (const article of articles) {
-      // 重複チェック
+      // 重複チェック（同一実行内）
       if (processedUrls.has(article.url)) continue
       processedUrls.add(article.url)
 
       console.log(`  Processing: ${article.title.substring(0, 40)}...`)
       const { asins, title, likes } = await extractAsinsFromZennArticle(article.url)
+      newlyProcessedUrls.push(article.url)
 
       if (asins.length > 0) {
         console.log(`    Found ${asins.length} ASINs`)
@@ -189,6 +230,12 @@ export async function discoverItemsFromZenn(): Promise<DiscoveredItem[]> {
       // レート制限対策
       await new Promise(resolve => setTimeout(resolve, 1500))
     }
+  }
+
+  // 探索済みURLを保存
+  if (newlyProcessedUrls.length > 0) {
+    addExploredUrls('zenn', newlyProcessedUrls)
+    console.log(`  💾 ${newlyProcessedUrls.length}件の記事を探索済みとして保存`)
   }
 
   console.log(`Discovered ${discoveredItems.size} unique items from Zenn`)
