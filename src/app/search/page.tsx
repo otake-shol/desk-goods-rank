@@ -19,11 +19,17 @@ export async function generateMetadata({
 
   return {
     title: query
-      ? `「${query}」の検索結果 - DeskGoodsRank`
-      : '検索 - DeskGoodsRank',
+      ? `「${query}」の検索結果`
+      : '検索',
     description: query
-      ? `「${query}」に関連するデスクアイテムの検索結果`
-      : 'デスクアイテムを検索',
+      ? `デスク・グッズ・ランクで「${query}」に関連するデスクグッズを検索`
+      : 'デスク・グッズ・ランクでデスク環境アイテムを検索',
+    openGraph: {
+      title: query
+        ? `「${query}」の検索結果 | デスク・グッズ・ランク`
+        : '検索 | デスク・グッズ・ランク',
+      url: `/search${query ? `?q=${encodeURIComponent(query)}` : ''}`,
+    },
   }
 }
 

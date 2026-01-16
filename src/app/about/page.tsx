@@ -7,9 +7,15 @@ import Link from 'next/link'
 import { Header, Footer } from '@/components'
 
 export const metadata: Metadata = {
-  title: 'ランキングの仕組み | DeskGoodsRank',
+  title: 'ランキングの仕組み',
   description:
-    'DeskGoodsRankのスコア算出方法を解説。SNS・YouTube・note・Amazonの4つのソースからデータを収集し、独自のアルゴリズムでランキングを算出しています。',
+    'デスク・グッズ・ランクのスコア算出方法を解説。SNS・YouTube・note・Amazonの4つのソースからデータを収集し、独自のアルゴリズムでデスクグッズのランキングを算出しています。',
+  openGraph: {
+    title: 'ランキングの仕組み | デスク・グッズ・ランク',
+    description:
+      'デスク・グッズ・ランクのスコア算出方法を解説。複数のデータソースから独自アルゴリズムでランキングを算出。',
+    url: '/about',
+  },
 }
 
 export default function AboutPage() {
@@ -32,8 +38,8 @@ export default function AboutPage() {
               </h1>
             </div>
             <p className="text-[#8888a0] text-lg">
-              DeskGoodsRankでは、複数のデータソースから情報を収集し、<br className="hidden sm:block" />
-              独自のアルゴリズムでスコアを算出しています。
+              デスク・グッズ・ランクでは、複数のデータソースから情報を収集し、<br className="hidden sm:block" />
+              独自のアルゴリズムでデスクグッズのスコアを算出しています。
             </p>
           </div>
         </section>

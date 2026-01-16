@@ -8,6 +8,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Header, Footer, RankingCard } from '@/components'
+import { ProductJsonLd, BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 import { getItemById, getCategoryById, getRelatedItems, getAllItems } from '@/data'
 import { generateAmazonAffiliateUrl } from '@/lib/affiliate'
 
@@ -28,12 +29,18 @@ export async function generateMetadata({
   const item = getItemById(id)
 
   if (!item) {
-    return { title: 'アイテムが見つかりません - DeskGoodsRank' }
+    return { title: 'アイテムが見つかりません' }
   }
 
   return {
-    title: `${item.name} - DeskGoodsRank`,
-    description: `${item.name}の詳細情報。スコア: ${item.score}点`,
+    title: item.name,
+    description: `${item.name}の詳細情報・レビュー・価格比較。デスク・グッズ・ランクのスコア: ${item.score}点。${item.shortDescription}`,
+    openGraph: {
+      title: `${item.name} | デスク・グッズ・ランク`,
+      description: `${item.name}の詳細情報。スコア: ${item.score}点`,
+      url: `/item/${item.id}`,
+      images: item.imageUrl ? [{ url: item.imageUrl, alt: item.name }] : [],
+    },
   }
 }
 
@@ -53,8 +60,16 @@ export default async function ItemPage({ params }: ItemPageProps) {
   const fullStars = Math.floor(item.score / 20)
   const hasHalfStar = (item.score % 20) >= 10
 
+  const breadcrumbs = [
+    { name: 'ホーム', url: '/' },
+    { name: category?.name || item.category, url: `/category/${item.category}` },
+    { name: item.name, url: `/item/${item.id}` },
+  ]
+
   return (
     <div className="flex min-h-screen flex-col bg-[#0a0a0f]">
+      <ProductJsonLd item={item} />
+      <BreadcrumbJsonLd items={breadcrumbs} />
       <Header />
 
       <main className="flex-1 py-8">

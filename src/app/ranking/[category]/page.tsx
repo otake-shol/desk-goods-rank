@@ -27,12 +27,17 @@ export async function generateMetadata({
   const categoryData = getCategoryById(category as CategoryId)
 
   if (!categoryData) {
-    return { title: 'カテゴリが見つかりません - DeskGoodsRank' }
+    return { title: 'カテゴリが見つかりません' }
   }
 
   return {
-    title: `${categoryData.name}ランキング | DeskGoodsRank`,
-    description: `${categoryData.name}カテゴリのデスクアイテム人気ランキング。${categoryData.description}`,
+    title: `${categoryData.name}ランキング`,
+    description: `デスク・グッズ・ランクの${categoryData.name}カテゴリ人気ランキング。${categoryData.description}`,
+    openGraph: {
+      title: `${categoryData.name}ランキング | デスク・グッズ・ランク`,
+      description: `${categoryData.name}カテゴリのデスクグッズ人気ランキング。`,
+      url: `/ranking/${categoryData.id}`,
+    },
   }
 }
 

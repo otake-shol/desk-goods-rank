@@ -11,6 +11,7 @@ import {
   RankingSection,
   CategoryPickupSection,
 } from '@/components'
+import { ItemListJsonLd } from '@/components/seo/JsonLd'
 import {
   getTopRanking,
   getTopByCategory,
@@ -19,14 +20,15 @@ import {
 } from '@/data'
 
 export const metadata: Metadata = {
-  title: 'DeskGoodsRank - デスク環境アイテム人気ランキング',
+  title: 'デスク・グッズ・ランク | デスク環境アイテム人気ランキング',
   description:
-    'SNS・YouTube・Amazonのデータをもとに、デスク環境を充実させるアイテムの人気ランキングをお届け。モニター、キーボード、チェアなど、本当に人気のアイテムが見つかります。',
+    'デスク・グッズ・ランクは、SNS・YouTube・Amazonのデータをもとにデスク環境アイテムの人気ランキングをお届け。モニター、キーボード、チェアなど、本当に人気のデスクグッズが見つかります。',
   openGraph: {
-    title: 'DeskGoodsRank - デスク環境アイテム人気ランキング',
+    title: 'デスク・グッズ・ランク | デスク環境アイテム人気ランキング',
     description:
-      'SNS・YouTube・Amazonのデータをもとに、本当に人気のデスクアイテムをランキング形式でお届け。',
+      'デスク・グッズ・ランクは、SNS・YouTube・Amazonのデータをもとに本当に人気のデスクグッズをランキング形式でお届け。',
     type: 'website',
+    url: '/',
   },
 }
 
@@ -44,6 +46,12 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
+      <ItemListJsonLd
+        items={topRanking}
+        name="デスク・グッズ・ランク 総合人気ランキング TOP10"
+        description="SNS・YouTube・Amazonのデータをもとに算出したデスクグッズの人気ランキング"
+        url="/"
+      />
       <Header />
 
       <main className="flex-1">

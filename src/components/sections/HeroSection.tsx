@@ -18,6 +18,9 @@ export function HeroSection() {
         <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:justify-between sm:text-left">
           {/* 左側: テキスト */}
           <div>
+            <p className="mb-1 text-xs text-[#00d4ff] font-medium tracking-wider">
+              デスク・グッズ・ランク
+            </p>
             <h1 className="font-mono text-lg font-bold tracking-tight text-white sm:text-xl">
               デスクツアーで見つけた、
               <br className="sm:hidden" />

@@ -6,12 +6,19 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { Header, Footer } from '@/components'
 import { RankingCard } from '@/components/ui/RankingCard'
+import { ItemListJsonLd } from '@/components/seo/JsonLd'
 import { getTopRanking, getAllCategories } from '@/data'
 
 export const metadata: Metadata = {
-  title: '全アイテムランキング | DeskGoodsRank',
+  title: '全アイテムランキング',
   description:
-    'デスク環境アイテムの人気ランキング一覧。SNS・YouTube・note・Amazonのデータをもとに算出したスコアで順位付け。',
+    'デスク・グッズ・ランクの全アイテム人気ランキング一覧。SNS・YouTube・note・Amazonのデータをもとに算出したスコアでデスクグッズを順位付け。',
+  openGraph: {
+    title: '全アイテムランキング | デスク・グッズ・ランク',
+    description:
+      'デスク環境アイテムの人気ランキング一覧。データに基づいたスコアで順位付け。',
+    url: '/ranking',
+  },
 }
 
 export default function RankingPage() {
@@ -21,6 +28,12 @@ export default function RankingPage() {
 
   return (
     <div className="flex min-h-screen flex-col bg-[#0a0a0f]">
+      <ItemListJsonLd
+        items={allItems}
+        name="デスク・グッズ・ランク 全アイテムランキング"
+        description="デスク環境アイテムの人気ランキング一覧"
+        url="/ranking"
+      />
       <Header />
 
       <main className="flex-1">
