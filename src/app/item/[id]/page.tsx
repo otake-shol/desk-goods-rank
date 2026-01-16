@@ -149,12 +149,33 @@ export default async function ItemPage({ params }: ItemPageProps) {
                   href={affiliateUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-auto inline-flex items-center justify-center gap-2 rounded-xl bg-[#FF9900] px-6 py-3 font-semibold text-white transition-all hover:bg-[#ffaa00] hover:shadow-lg hover:shadow-[#FF9900]/25"
+                  className="mt-auto group relative overflow-hidden rounded-xl bg-gradient-to-b from-[#f7dfa5] via-[#f0c14b] to-[#e4a831] px-6 py-4 shadow-md transition-all hover:shadow-xl hover:shadow-[#f0c14b]/30 active:scale-[0.98]"
                 >
-                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.493.126.11.19.03.404-.24.638-.39.34-.863.696-1.422 1.07a20.49 20.49 0 01-8.31 2.62c-3.98.403-7.73-.378-11.25-2.34-.192-.108-.27-.234-.235-.378.032-.135.133-.24.3-.318l-.01.002zm5.165-2.55c0-.163.14-.303.42-.42l1.543-.636c.28-.116.517-.085.713.093l.602.503c.196.16.295.346.295.557v4.2c0 .212-.1.398-.296.558l-.602.504c-.196.176-.433.207-.713.093l-1.543-.635c-.28-.116-.42-.256-.42-.42v-4.396zM21.22 16.2c.14-.073.27-.103.39-.09.138.02.243.09.32.21.075.12.084.244.025.374-.06.13-.167.274-.32.43l-.602.602a.698.698 0 01-.492.2H17.23c-.236 0-.433-.063-.59-.187l-.602-.476c-.16-.125-.24-.264-.24-.42v-.166c0-.155.08-.294.24-.42l.602-.475c.157-.124.354-.187.59-.187h3.31c.176 0 .332.07.47.2l.21.21v-.405z" />
-                  </svg>
-                  Amazonで見る
+                  {/* 光沢エフェクト */}
+                  <div className="absolute inset-0 bg-gradient-to-b from-white/25 to-transparent opacity-100" />
+
+                  <div className="relative flex items-center justify-center gap-3">
+                    {/* カートアイコン */}
+                    <svg className="h-6 w-6 text-[#111]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+
+                    <div className="flex flex-col items-start">
+                      <span className="text-sm font-bold text-[#111]">
+                        Amazonで購入する
+                      </span>
+                      {item.amazon.price && (
+                        <span className="text-xs font-medium text-[#111]/70">
+                          ¥{item.amazon.price.toLocaleString()}
+                        </span>
+                      )}
+                    </div>
+
+                    {/* 矢印 */}
+                    <svg className="h-4 w-4 text-[#111]/60 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
                 </a>
               </div>
             </div>
