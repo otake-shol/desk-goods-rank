@@ -94,12 +94,11 @@ export function RankingCard({ item, showRank = true }: RankingCardProps) {
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}
-            className="flex flex-1 items-center justify-center gap-1 rounded-md bg-[#ff9900] py-1.5 text-[10px] font-semibold text-black transition-colors hover:bg-[#ffad33]"
+            className="group/amazon relative flex flex-1 items-center justify-center gap-1 overflow-hidden rounded-md bg-gradient-to-b from-[#f7dfa5] via-[#f0c14b] to-[#e4a831] py-1.5 text-[10px] font-semibold text-black shadow-sm transition-all hover:shadow-md hover:shadow-[#f0c14b]/30"
           >
-            <svg className="h-3 w-3" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.493.126.11.19.03.404-.24.638-.39.34-.863.696-1.422 1.07a20.49 20.49 0 01-8.31 2.62c-3.98.403-7.73-.378-11.25-2.34-.192-.108-.27-.234-.235-.378.032-.135.133-.24.3-.318l-.01.002z" />
-            </svg>
-            Amazon
+            {/* 光沢エフェクト */}
+            <div className="absolute inset-0 bg-gradient-to-b from-white/25 to-transparent" />
+            <span className="relative">Amazon</span>
           </a>
 
           {/* 楽天リンク */}
@@ -108,9 +107,11 @@ export function RankingCard({ item, showRank = true }: RankingCardProps) {
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}
-            className="flex flex-1 items-center justify-center gap-1 rounded-md border border-[#BF0000]/50 bg-[#BF0000]/10 py-1.5 text-[10px] font-semibold text-[#BF0000] transition-colors hover:bg-[#BF0000]/20"
+            className="group/rakuten relative flex flex-1 items-center justify-center gap-1 overflow-hidden rounded-md bg-gradient-to-b from-[#e60033] via-[#bf0000] to-[#990000] py-1.5 text-[10px] font-semibold text-white shadow-sm transition-all hover:shadow-md hover:shadow-[#bf0000]/30"
           >
-            楽天
+            {/* 光沢エフェクト */}
+            <div className="absolute inset-0 bg-gradient-to-b from-white/20 to-transparent" />
+            <span className="relative">楽天</span>
           </a>
         </div>
       </div>

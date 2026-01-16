@@ -186,12 +186,21 @@ export default async function ItemPage({ params }: ItemPageProps) {
                     href={rakutenUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group flex items-center justify-center gap-2 rounded-lg border border-[#BF0000]/30 bg-[#BF0000]/10 px-4 py-2.5 text-sm font-medium text-[#BF0000] transition-all hover:border-[#BF0000]/50 hover:bg-[#BF0000]/20 active:scale-[0.98]"
+                    className="group relative overflow-hidden rounded-xl bg-gradient-to-b from-[#e60033] via-[#bf0000] to-[#990000] px-6 py-3 shadow-md transition-all hover:shadow-lg hover:shadow-[#bf0000]/30 active:scale-[0.98]"
                   >
-                    <span>楽天市場で見る</span>
-                    <svg className="h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
+                    {/* 光沢エフェクト */}
+                    <div className="absolute inset-0 bg-gradient-to-b from-white/20 to-transparent" />
+
+                    <div className="relative flex items-center justify-center gap-2">
+                      {/* 楽天Rロゴ */}
+                      <svg className="h-5 w-5 text-white" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.5 14.5h-2v-4h-3v4h-2V7.5h2v3h3v-3h2v9z"/>
+                      </svg>
+                      <span className="text-sm font-bold text-white">楽天市場で見る</span>
+                      <svg className="h-4 w-4 text-white/80 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
                   </a>
                 </div>
               </div>
