@@ -35,7 +35,7 @@ export function RankingSection({
             {totalCount && (
               <Link
                 href="/ranking"
-                className="ml-2 rounded-full bg-white/10 px-3 py-1 text-xs text-[#8888a0] hover:bg-white/20 hover:text-white transition-colors"
+                className="ml-2 flex-shrink-0 whitespace-nowrap rounded-full bg-white/10 px-3 py-1 text-xs text-[#8888a0] hover:bg-white/20 hover:text-white transition-colors"
               >
                 全{totalCount}件 →
               </Link>
