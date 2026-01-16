@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#0a0a0f"/>
+
+  <!-- Monitor screen -->
+  <rect x="4" y="6" width="20" height="14" rx="2" fill="#1a1a24" stroke="#00d4ff" stroke-width="1.5"/>
+
+  <!-- Monitor stand -->
+  <path d="M11 20v3h6v-3" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M9 23h10" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Screen glow line -->
+  <rect x="6" y="8" width="16" height="10" rx="1" fill="#12121a"/>
+
+  <!-- Star -->
+  <path d="M26 8l1.2 2.4 2.8.4-2 2 .5 2.7-2.5-1.3-2.5 1.3.5-2.7-2-2 2.8-.4L26 8z" fill="#ffd700"/>
+</svg>
