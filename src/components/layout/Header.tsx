@@ -1,20 +1,31 @@
+'use client'
+
 /**
  * ヘッダーコンポーネント（ガジェット系デザイン）
  * 仕様書: specs/01-top-page.md
  */
 
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { getAllCategories } from '@/data'
 
 export function Header() {
+  const pathname = usePathname()
   const categories = getAllCategories()
+
+  const handleLogoClick = (e: React.MouseEvent) => {
+    if (pathname === '/') {
+      e.preventDefault()
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+  }
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-xl">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">
           {/* ロゴ */}
-          <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
+          <Link href="/" onClick={handleLogoClick} className="flex items-center gap-2.5 shrink-0 group">
             <div className="relative h-8 w-8">
               <svg viewBox="0 0 32 32" fill="none" className="h-8 w-8">
                 {/* モニター */}
