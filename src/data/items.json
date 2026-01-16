@@ -316,6 +316,1026 @@
         "youtube": 0,
         "amazon": 50
       }
+    },
+    {
+      "id": "monitor-b0d1k8h4f5",
+      "name": "KEEPTIME モバイルモニター 15.6インチ 1920*1080 モバイルディスプレイ ポータブルモニター IPS液晶パネル 非光沢画面 薄型 軽量 マグネット保護カバー付き USB Type-C ミニHDMI PS4/XBOX/Sw-itch/PC/Macなど対応 在宅勤務 リモートワーク",
+      "description": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】で紹介された商品",
+      "shortDescription": "KEEPTIME モバイルモニター 15.6インチ 1920",
+      "imageUrl": "https://m.media-amazon.com/images/I/81kZ1W0J2cL._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "monitor",
+      "score": 0,
+      "amazon": {
+        "asin": "B0D1K8H4F5",
+        "url": "https://www.amazon.co.jp/dp/B0D1K8H4F5",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0D1K8H4F5?tag=otkshol01-22",
+        "price": 8407
+      },
+      "tags": [],
+      "brand": "KEEPTIME",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 20
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nde85c912a723",
+        "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
+        "mentionCount": 2
+      }
+    },
+    {
+      "id": "desk-b0bzts9lr7",
+      "name": "サンワダイレクト パソコンデスク 幅140×奥行60cm モニターアーム対応 机 PCデスク 組立簡単 ブラック 100-DESKF005BK3",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "サンワダイレクト パソコンデスク 幅140×奥行60cm モ",
+      "imageUrl": "https://m.media-amazon.com/images/I/61MUsoq-kVL._AC_SX569_.jpg",
+      "category": "furniture",
+      "subCategory": "desk",
+      "score": 0,
+      "amazon": {
+        "asin": "B0BZTS9LR7",
+        "url": "https://www.amazon.co.jp/dp/B0BZTS9LR7",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0BZTS9LR7?tag=otkshol01-22",
+        "price": 12480
+      },
+      "tags": [],
+      "brand": "サンワダイレクト",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "monitor-arm-b08czbr42j",
+      "name": "ErGear PC モニターアーム 13-32インチ対応 ディスプレイ シングルアーム ガススプリング式 クランプ式 グロメット式 耐荷重2-8kg",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "ErGear PC モニターアーム 13-32インチ対応 デ",
+      "imageUrl": "https://m.media-amazon.com/images/I/61iMkx6IURL._AC_SX522_.jpg",
+      "category": "furniture",
+      "subCategory": "monitor-arm",
+      "score": 0,
+      "amazon": {
+        "asin": "B08CZBR42J",
+        "url": "https://www.amazon.co.jp/dp/B08CZBR42J",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B08CZBR42J?tag=otkshol01-22",
+        "price": 3299
+      },
+      "tags": [],
+      "brand": "ErGear",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "arm-accessory-b09qbtg3cc",
+      "name": "エレコム モニターアーム補強プレート 固定 (クランプ式/グロメット式 対応) 傷防止 デスク保護 保護シート付 ブラック DPA-RP01BK",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "エレコム モニターアーム補強プレート 固定 (クランプ式/グ",
+      "imageUrl": "https://m.media-amazon.com/images/I/71vpnRgasaL._AC_SX522_.jpg",
+      "category": "furniture",
+      "subCategory": "arm-accessory",
+      "score": 0,
+      "amazon": {
+        "asin": "B09QBTG3CC",
+        "url": "https://www.amazon.co.jp/dp/B09QBTG3CC",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B09QBTG3CC?tag=otkshol01-22",
+        "price": 1500
+      },
+      "tags": [],
+      "brand": "エレコム",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "mouse-b08ckz9tsy",
+      "name": "Logicool G ゲーミングマウス G502 有線 USB 接続 マウス HERO 25Kセンサー G502RGBhr LIGHTSYNC RGB 11個プログラムボタン FPS / MMO / RPG ブラック PC windows mac 国内正規品 【 ファイナルファンタジーXIV 推奨周辺機器 】",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "Logicool G ゲーミングマウス G502 有線 US",
+      "imageUrl": "https://m.media-amazon.com/images/I/51d10VscHOL._AC_SY879_.jpg",
+      "category": "device",
+      "subCategory": "mouse",
+      "score": 0,
+      "amazon": {
+        "asin": "B08CKZ9TSY",
+        "url": "https://www.amazon.co.jp/dp/B08CKZ9TSY",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B08CKZ9TSY?tag=otkshol01-22",
+        "price": 8600
+      },
+      "tags": [],
+      "brand": "Logicool",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "microphone-b0d41f9h3z",
+      "name": "TKGOU USB ゲーミングマイク PC マイク コンデンサーマイクミュートボタン 単一指向性 RGBライティング 音量コントロール プラグ＆プレイ パソコンマイク ゲーム実況 ライブ配信 ポットキャスト ストリーミング Skype Discord Zoom Windows/Mac/PS4/PS5対応",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "TKGOU USB ゲーミングマイク PC マイク コンデン",
+      "imageUrl": "https://m.media-amazon.com/images/I/71KsAwpML0L._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "microphone",
+      "score": 0,
+      "amazon": {
+        "asin": "B0D41F9H3Z",
+        "url": "https://www.amazon.co.jp/dp/B0D41F9H3Z",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0D41F9H3Z?tag=otkshol01-22",
+        "price": 5480
+      },
+      "tags": [],
+      "brand": "TKGOU",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "dac-amp-b0crybv9cw",
+      "name": "FIIO K9 AKM 【日本正規店販売品・シリアルナンバー付】ヘッドホンアンプ 旭化成 AK4191EQ AK4499EX THX-AAA 788+ USB DAC ヘッドフォン アンプ",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "FIIO K9 AKM 【日本正規店販売品・シリアルナンバー",
+      "imageUrl": "https://m.media-amazon.com/images/I/41LDz--IYbL._SX425_.jpg",
+      "category": "audio",
+      "subCategory": "dac-amp",
+      "score": 0,
+      "amazon": {
+        "asin": "B0CRYBV9CW",
+        "url": "https://www.amazon.co.jp/dp/B0CRYBV9CW",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0CRYBV9CW?tag=otkshol01-22",
+        "price": 1541914499
+      },
+      "tags": [],
+      "brand": "FIIO",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "dac-amp-b0clqk8g7k",
+      "name": "FIIO K11 【日本国内正規品】USB DAC 内蔵 小型 据え置き デスクトップ アンプ バランス構成 (ブラック)",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "FIIO K11 【日本国内正規品】USB DAC 内蔵 小",
+      "imageUrl": "https://m.media-amazon.com/images/I/41O9CAhNzhL._AC_SX522_.jpg",
+      "category": "audio",
+      "subCategory": "dac-amp",
+      "score": 0,
+      "amazon": {
+        "asin": "B0CLQK8G7K",
+        "url": "https://www.amazon.co.jp/dp/B0CLQK8G7K",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0CLQK8G7K?tag=otkshol01-22",
+        "price": 23643
+      },
+      "tags": [],
+      "brand": "FIIO",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "bluetooth-receiver-b0cp3lfm38",
+      "name": "FIIO BR13 FIO-BR13 【日本国内正規品・シリアルナンバー付】 フィーオ Bluetooth レシーバー ブルートゥース 受信 USB DAC オーディオ LDAC aptX adaptive ハイレゾ ハイレゾワイヤレス 低ノイズ UAC1.0",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "FIIO BR13 FIO-BR13 【日本国内正規品・シリ",
+      "imageUrl": "https://m.media-amazon.com/images/I/41R367Dcs1L._AC_SX522_.jpg",
+      "category": "audio",
+      "subCategory": "bluetooth-receiver",
+      "score": 0,
+      "amazon": {
+        "asin": "B0CP3LFM38",
+        "url": "https://www.amazon.co.jp/dp/B0CP3LFM38",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0CP3LFM38?tag=otkshol01-22",
+        "price": 9899
+      },
+      "tags": [],
+      "brand": "FIIO",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "audio-accessory-b08f9ymg8v",
+      "name": "FX-AUDIO- Petit Tank DC電源ノイズクリーナー・バルクキャパシタ 延長ケーブル型 出力プラグ外径5.5mm 内径2.1/2.5mm両対応",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "FX-AUDIO- Petit Tank DC電源ノイズクリ",
+      "imageUrl": "https://m.media-amazon.com/images/I/51V9EpU8uRL._AC_SX522_.jpg",
+      "category": "audio",
+      "subCategory": "audio-accessory",
+      "score": 0,
+      "amazon": {
+        "asin": "B08F9YMG8V",
+        "url": "https://www.amazon.co.jp/dp/B08F9YMG8V",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B08F9YMG8V?tag=otkshol01-22",
+        "price": 1850
+      },
+      "tags": [],
+      "brand": "FX-AUDIO-",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "storage-b09cg85vj3",
+      "name": "小物 収納 スタッキング FiiO HB11 FIO-HB11 イヤホン イヤーピース 収納ボックス 収納ケース",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "小物 収納 スタッキング FiiO HB11 FIO-HB1",
+      "imageUrl": "https://m.media-amazon.com/images/I/517MVMEkPeL._AC_SX569_.jpg",
+      "category": "accessory",
+      "subCategory": "storage",
+      "score": 0,
+      "amazon": {
+        "asin": "B09CG85VJ3",
+        "url": "https://www.amazon.co.jp/dp/B09CG85VJ3",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B09CG85VJ3?tag=otkshol01-22",
+        "price": 122
+      },
+      "tags": [],
+      "brand": "小物",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "smart-display-b09b2pf8s4",
+      "name": "Amazon Echo Show 5 (エコーショー5) 第3世代 - スマートディスプレイ with Alexa、2メガピクセルカメラ付き、チャコール",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "Amazon Echo Show 5 (エコーショー5) 第",
+      "imageUrl": "https://m.media-amazon.com/images/I/61vQqn6zZxL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "category": "device",
+      "subCategory": "smart-display",
+      "score": 0,
+      "amazon": {
+        "asin": "B09B2PF8S4",
+        "url": "https://www.amazon.co.jp/dp/B09B2PF8S4",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B09B2PF8S4?tag=otkshol01-22",
+        "price": 12980
+      },
+      "tags": [],
+      "brand": "Amazon",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "charger-b0bjcxd6wf",
+      "name": "Baseus PD 充電器 40W USB 電源タップ 1500W 6ポート GaN5(窒化ガリウム)採用 【2*USB-C・1*USB-A・3*コンセント差込口/安全検出/LED 出力表示/ほこり防止シャッター/アース付き / 1.5mコード】 OAタップ iPhone15 iPad Androidスマホ 家電 TypeC機器対応 PSE認証済 PowerCombo Pro",
+      "description": "高校生の2026年1月デスクツアーで紹介された商品",
+      "shortDescription": "Baseus PD 充電器 40W USB 電源タップ 15",
+      "imageUrl": "https://m.media-amazon.com/images/I/51S-Cx4EUYL._AC_SY741_.jpg",
+      "category": "accessory",
+      "subCategory": "charger",
+      "score": 0,
+      "amazon": {
+        "asin": "B0BJCXD6WF",
+        "url": "https://www.amazon.co.jp/dp/B0BJCXD6WF",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0BJCXD6WF?tag=otkshol01-22",
+        "price": 20251452080042212
+      },
+      "tags": [],
+      "brand": "Baseus",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
+        "title": "高校生の2026年1月デスクツアー",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "trackball-b079fdqzxq",
+      "name": "エレコム マウス ワイヤレス (レシーバー付属) トラックボール 大玉 8ボタン チルト機能 ブラック M-HT1DRXBK",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "エレコム マウス ワイヤレス (レシーバー付属) トラックボ",
+      "imageUrl": "https://m.media-amazon.com/images/I/71pEJsAZ6eL._AC_SY879_.jpg",
+      "category": "device",
+      "subCategory": "trackball",
+      "score": 0,
+      "amazon": {
+        "asin": "B079FDQZXQ",
+        "url": "https://www.amazon.co.jp/dp/B079FDQZXQ",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B079FDQZXQ?tag=otkshol01-22",
+        "price": 5499
+      },
+      "tags": [],
+      "brand": "エレコム",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "trackball-b016qcprbm",
+      "name": "エレコム ワイヤレス トラックボールマウス EX-G 左手用 6ボタン チルトホイール（左右スクロール） ブラック M-XT4DRBK",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "エレコム ワイヤレス トラックボールマウス EX-G 左手用",
+      "imageUrl": "https://m.media-amazon.com/images/I/51FZnjk4duL._AC_SY879_.jpg",
+      "category": "device",
+      "subCategory": "trackball",
+      "score": 0,
+      "amazon": {
+        "asin": "B016QCPRBM",
+        "url": "https://www.amazon.co.jp/dp/B016QCPRBM",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B016QCPRBM?tag=otkshol01-22",
+        "price": 2900
+      },
+      "tags": [],
+      "brand": "エレコム",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "trackball-b0crqwqrmt",
+      "name": "ProtoArc トラックボールマウス Bluetooth/2.4GHz両対応 3台同時接続 無線 マウス トラックボール 静音 親指 Type-C充電式 大容量バッテリー内蔵 5段階DPI調節可能 進む/戻るボタン搭載 Windows/Mac/iOS/Android対応 ブラック",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "ProtoArc トラックボールマウス Bluetooth/",
+      "imageUrl": "https://m.media-amazon.com/images/I/61eVQhS1gLL._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "trackball",
+      "score": 0,
+      "amazon": {
+        "asin": "B0CRQWQRMT",
+        "url": "https://www.amazon.co.jp/dp/B0CRQWQRMT",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0CRQWQRMT?tag=otkshol01-22",
+        "price": 3198
+      },
+      "tags": [],
+      "brand": "ProtoArc",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "mouse-accessory-b08dd6gqrv",
+      "name": "ぺリックス PERIPRO-303 GBK 34 mm 交換用トラックボール光沢仕上げブラックスピード型 PERIMICE-517/717/520/720 交換ボールロジクール/M575/M570と互換性有り",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "ぺリックス PERIPRO-303 GBK 34 mm 交換",
+      "imageUrl": "https://m.media-amazon.com/images/I/41rMCfFOixL._AC_SX522_.jpg",
+      "category": "accessory",
+      "subCategory": "mouse-accessory",
+      "score": 0,
+      "amazon": {
+        "asin": "B08DD6GQRV",
+        "url": "https://www.amazon.co.jp/dp/B08DD6GQRV",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B08DD6GQRV?tag=otkshol01-22",
+        "price": 1999
+      },
+      "tags": [],
+      "brand": "ぺリックス",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "trackball-b0dyds6v55",
+      "name": "Nulea M501 ワイヤレス トラックボールマウス 3台接続可能 Bluetooth/USB接続 4段階DPI調節可能 充電式 親指操作 人間工学設計 6ボタン 進む/戻るボタン搭載 マウス 無線 Windows/Mac対応 ブルー",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "Nulea M501 ワイヤレス トラックボールマウス 3台",
+      "imageUrl": "https://m.media-amazon.com/images/I/61nnbT4VJsL._AC_SY679_.jpg",
+      "category": "device",
+      "subCategory": "trackball",
+      "score": 0,
+      "amazon": {
+        "asin": "B0DYDS6V55",
+        "url": "https://www.amazon.co.jp/dp/B0DYDS6V55",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0DYDS6V55?tag=otkshol01-22",
+        "price": 3591
+      },
+      "tags": [],
+      "brand": "Nulea",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "trackball-b0czknnnxj",
+      "name": "エレコム ワイヤレス トラックボールマウス Bluetooth IST (イスト) シリーズ 5ボタン 親指操作 ベアリング支持 Windows Mac Chromebook ブラック 2 M-IT11BRABK",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "エレコム ワイヤレス トラックボールマウス Bluetoot",
+      "imageUrl": "https://m.media-amazon.com/images/I/613H8qq1rCL._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "trackball",
+      "score": 0,
+      "amazon": {
+        "asin": "B0CZKNNNXJ",
+        "url": "https://www.amazon.co.jp/dp/B0CZKNNNXJ",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0CZKNNNXJ?tag=otkshol01-22",
+        "price": 5990
+      },
+      "tags": [],
+      "brand": "エレコム",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "trackball-b0fhq5kbr1",
+      "name": "ProtoArc トラックボールマウス 静音 Bluetooth/USB接続 3台同時接続 マウス トラックボール 無線 USB-C充電式 5段階DPI切替 進む/戻るボタン搭載 親指操作 Windows/Mac/iOS/Android対応 スターリーブラック",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "ProtoArc トラックボールマウス 静音 Bluetoo",
+      "imageUrl": "https://m.media-amazon.com/images/I/61frLyJKN6L._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "trackball",
+      "score": 0,
+      "amazon": {
+        "asin": "B0FHQ5KBR1",
+        "url": "https://www.amazon.co.jp/dp/B0FHQ5KBR1",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0FHQ5KBR1?tag=otkshol01-22",
+        "price": 3099
+      },
+      "tags": [],
+      "brand": "ProtoArc",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "trackball-b016qcpnuw",
+      "name": "エレコム ワイヤレス トラックボールマウス EX-G 握りの極み 6ボタン チルトホイール（左右スクロール） ブラック M-XT3DRBK",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "エレコム ワイヤレス トラックボールマウス EX-G 握りの",
+      "imageUrl": "https://m.media-amazon.com/images/I/51xk731l6KL._AC_SY879_.jpg",
+      "category": "device",
+      "subCategory": "trackball",
+      "score": 0,
+      "amazon": {
+        "asin": "B016QCPNUW",
+        "url": "https://www.amazon.co.jp/dp/B016QCPNUW",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B016QCPNUW?tag=otkshol01-22",
+        "price": 3499
+      },
+      "tags": [],
+      "brand": "エレコム",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "trackball-b0d9y1snqt",
+      "name": "【Amazon.co.jp限定】 ロジクール 静音 ワイヤレス トラックボール マウス MXTB2d MX ERGO S Bluetooth Logibolt 無線 windows mac iPad OS Chrome Android トラックボールマウス グラファイト 国内正規品 ※Amazon.co.jp限定 壁紙ダウンロード付き",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "【Amazon.co.jp限定】 ロジクール 静音 ワイヤレ",
+      "imageUrl": "https://m.media-amazon.com/images/I/61BhMOiauWL._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "trackball",
+      "score": 0,
+      "amazon": {
+        "asin": "B0D9Y1SNQT",
+        "url": "https://www.amazon.co.jp/dp/B0D9Y1SNQT",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0D9Y1SNQT?tag=otkshol01-22",
+        "price": 17800
+      },
+      "tags": [],
+      "brand": "【Amazon.co.jp限定】",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "trackball-b0d9y1j4nh",
+      "name": "【Amazon.co.jp限定】 ロジクール 静音 ワイヤレス トラックボール マウス M575SPd Bluetooth Logibolt 無線 windows mac iPad OS Chrome トラックボールマウス ブラック M575 M575SP 国内正規品 ※Amazon.co.jp限定 壁紙ダウンロード付き",
+      "description": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？で紹介された商品",
+      "shortDescription": "【Amazon.co.jp限定】 ロジクール 静音 ワイヤレ",
+      "imageUrl": "https://m.media-amazon.com/images/I/619NsX0xdiL._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "trackball",
+      "score": 0,
+      "amazon": {
+        "asin": "B0D9Y1J4NH",
+        "url": "https://www.amazon.co.jp/dp/B0D9Y1J4NH",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0D9Y1J4NH?tag=otkshol01-22",
+        "price": 7673
+      },
+      "tags": [],
+      "brand": "【Amazon.co.jp限定】",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nd01722f085a6",
+        "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "monitor-b0dmn94q8m",
+      "name": "REGZA ゲーミングモニター 27インチ WQHD 240Hz モンスターハンターワイルズ推奨画質 1ms(GTG) HDR10 Fast IPSパネル Adaptive Sync HDMI対応 RM-G276N",
+      "description": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】で紹介された商品",
+      "shortDescription": "REGZA ゲーミングモニター 27インチ WQHD 240",
+      "imageUrl": "https://m.media-amazon.com/images/I/61hAhCW477L._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "monitor",
+      "score": 0,
+      "amazon": {
+        "asin": "B0DMN94Q8M",
+        "url": "https://www.amazon.co.jp/dp/B0DMN94Q8M",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0DMN94Q8M?tag=otkshol01-22",
+        "price": 33000
+      },
+      "tags": [],
+      "brand": "REGZA",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nde85c912a723",
+        "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "monitor-b07lh1zdsl",
+      "name": "【Amazon.co.jp限定】ASUS モニター Eyer Care VZ249HR 23.8インチ/フルHD/IPS/薄さ7mm/ブルーライト軽減/フリッカーフリー/HDMI D-sub/スピーカー/3年保証",
+      "description": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】で紹介された商品",
+      "shortDescription": "【Amazon.co.jp限定】ASUS モニター Eyer",
+      "imageUrl": "https://m.media-amazon.com/images/I/71EcpHY3zZL._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "monitor",
+      "score": 0,
+      "amazon": {
+        "asin": "B07LH1ZDSL",
+        "url": "https://www.amazon.co.jp/dp/B07LH1ZDSL",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B07LH1ZDSL?tag=otkshol01-22",
+        "price": 13980
+      },
+      "tags": [],
+      "brand": "【Amazon.co.jp限定】ASUS",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nde85c912a723",
+        "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "monitor-b0cg5vdgky",
+      "name": "Minifire モニター27インチ 120Hz フルHD 1920x1080 IPSパネル ディスプレイ USB-Type C/HDMI スピーカー内蔵 Adaptive Sync OD 5ms HDR10 sRGB 110% ブルーライト軽減 フリッカーフリー VESA対応 フレームレス 5年保証 (MF27X3A）",
+      "description": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】で紹介された商品",
+      "shortDescription": "Minifire モニター27インチ 120Hz フルHD ",
+      "imageUrl": "https://m.media-amazon.com/images/I/71Bbk0Byv2L._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "monitor",
+      "score": 0,
+      "amazon": {
+        "asin": "B0CG5VDGKY",
+        "url": "https://www.amazon.co.jp/dp/B0CG5VDGKY",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0CG5VDGKY?tag=otkshol01-22",
+        "price": 15299
+      },
+      "tags": [],
+      "brand": "Minifire",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nde85c912a723",
+        "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "monitor-b0dg4rkzmd",
+      "name": "KTC 27インチ モニターWQHD(2560×1440) 100Hz IPSパネル HDR10 Adaptive Sync sRGB116% 300cd/m² HDMI 2.0×2 DP 1.4×1 フリッカーフリー Softeware LBL 省エネ設計 目に優しい設計 VESA対応100mm×100mm ビジネス/取引/グラフィック/映画 3年保証 H27T27",
+      "description": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】で紹介された商品",
+      "shortDescription": "KTC 27インチ モニターWQHD(2560×1440) ",
+      "imageUrl": "https://m.media-amazon.com/images/I/71MHPzaBlnL._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "monitor",
+      "score": 0,
+      "amazon": {
+        "asin": "B0DG4RKZMD",
+        "url": "https://www.amazon.co.jp/dp/B0DG4RKZMD",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0DG4RKZMD?tag=otkshol01-22",
+        "price": 14408
+      },
+      "tags": [],
+      "brand": "KTC",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nde85c912a723",
+        "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "monitor-b00cwxr15k",
+      "name": "Pixio PX248 Wave White ゲーミングモニター 白 ホワイト 23.8インチ 200Hz FHD スピーカー内蔵 2年保証 30日間返品保証",
+      "description": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】で紹介された商品",
+      "shortDescription": "Pixio PX248 Wave White ゲーミングモニ",
+      "imageUrl": "https://m.media-amazon.com/images/I/71f4BinbCqL._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "monitor",
+      "score": 0,
+      "amazon": {
+        "asin": "B00CWXR15K",
+        "url": "https://www.amazon.co.jp/dp/B00CWXR15K",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B00CWXR15K?tag=otkshol01-22",
+        "price": 26980
+      },
+      "tags": [],
+      "brand": "Pixio",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nde85c912a723",
+        "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "monitor-b0fhjynl1j",
+      "name": "Dell SE2425HG 23.8インチ ゲーミングモニター(3年保証/FHD/Fast IPS,非光沢/DP1.4x1,HDMIx2,/FreeSync Premium/sRGB 99%/傾き/1ms,200Hz)",
+      "description": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】で紹介された商品",
+      "shortDescription": "Dell SE2425HG 23.8インチ ゲーミングモニタ",
+      "imageUrl": "https://m.media-amazon.com/images/I/71+8WCl-59L._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "monitor",
+      "score": 0,
+      "amazon": {
+        "asin": "B0FHJYNL1J",
+        "url": "https://www.amazon.co.jp/dp/B0FHJYNL1J",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0FHJYNL1J?tag=otkshol01-22",
+        "price": 13980
+      },
+      "tags": [],
+      "brand": "Dell",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nde85c912a723",
+        "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
+        "mentionCount": 1
+      }
+    },
+    {
+      "id": "monitor-b0cpxqqll2",
+      "name": "【Amazon.co.jp 限定】アイ・オー・データ IODATA モニター 23.8インチ ブラック ADSパネル 非光沢 省電力 (HDMI/アナログRGB/スピーカー付/VESA対応/土日サポート/日本メーカー/無輝点保証) EX-A241DB",
+      "description": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】で紹介された商品",
+      "shortDescription": "【Amazon.co.jp 限定】アイ・オー・データ IOD",
+      "imageUrl": "https://m.media-amazon.com/images/I/71MBuR5fWaL._AC_SX522_.jpg",
+      "category": "device",
+      "subCategory": "monitor",
+      "score": 0,
+      "amazon": {
+        "asin": "B0CPXQQLL2",
+        "url": "https://www.amazon.co.jp/dp/B0CPXQQLL2",
+        "affiliateUrl": "https://www.amazon.co.jp/dp/B0CPXQQLL2?tag=otkshol01-22",
+        "price": 14800
+      },
+      "tags": [],
+      "brand": "【Amazon.co.jp",
+      "featured": false,
+      "isNew": true,
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-01-15",
+      "socialScore": {
+        "twitter": 0,
+        "youtube": 0,
+        "amazon": 50,
+        "note": 10
+      },
+      "discoveredFrom": {
+        "source": "note",
+        "url": "https://note.com/kankare/n/nde85c912a723",
+        "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
+        "mentionCount": 1
+      }
     }
   ]
 }

@@ -10,10 +10,25 @@
         { "id": "monitor", "name": "モニター", "categoryId": "device" },
         { "id": "keyboard", "name": "キーボード", "categoryId": "device" },
         { "id": "mouse", "name": "マウス", "categoryId": "device" },
-        { "id": "headphone", "name": "イヤホン/ヘッドホン", "categoryId": "device" },
+        { "id": "trackball", "name": "トラックボール", "categoryId": "device" },
+        { "id": "headphone", "name": "ヘッドホン", "categoryId": "device" },
+        { "id": "earphone", "name": "イヤホン", "categoryId": "device" },
         { "id": "webcam", "name": "Webカメラ", "categoryId": "device" },
         { "id": "microphone", "name": "マイク", "categoryId": "device" },
-        { "id": "speaker", "name": "スピーカー", "categoryId": "device" }
+        { "id": "speaker", "name": "スピーカー", "categoryId": "device" },
+        { "id": "smart-display", "name": "スマートディスプレイ", "categoryId": "device" }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "オーディオ",
+      "nameEn": "Audio",
+      "description": "DAC、アンプ、Bluetoothレシーバーなど音響機器",
+      "icon": "headphone",
+      "subCategories": [
+        { "id": "dac-amp", "name": "DAC/アンプ", "categoryId": "audio" },
+        { "id": "bluetooth-receiver", "name": "Bluetoothレシーバー", "categoryId": "audio" },
+        { "id": "audio-accessory", "name": "オーディオアクセサリ", "categoryId": "audio" }
       ]
     },
     {
@@ -26,6 +41,7 @@
         { "id": "desk", "name": "デスク", "categoryId": "furniture" },
         { "id": "chair", "name": "チェア", "categoryId": "furniture" },
         { "id": "monitor-arm", "name": "モニターアーム", "categoryId": "furniture" },
+        { "id": "arm-accessory", "name": "アーム補強プレート", "categoryId": "furniture" },
         { "id": "cable-management", "name": "配線整理", "categoryId": "furniture" }
       ]
     },
@@ -41,6 +57,20 @@
         { "id": "desk-mat", "name": "デスクマット", "categoryId": "lighting" },
         { "id": "plant", "name": "観葉植物", "categoryId": "lighting" },
         { "id": "organizer", "name": "デスクオーガナイザー", "categoryId": "lighting" }
+      ]
+    },
+    {
+      "id": "accessory",
+      "name": "アクセサリ",
+      "nameEn": "Accessory",
+      "description": "充電器、ケーブル、収納など周辺アクセサリ",
+      "icon": "cable",
+      "subCategories": [
+        { "id": "charger", "name": "充電器・電源タップ", "categoryId": "accessory" },
+        { "id": "hub", "name": "USBハブ・ドック", "categoryId": "accessory" },
+        { "id": "storage", "name": "収納・ケース", "categoryId": "accessory" },
+        { "id": "cable", "name": "ケーブル", "categoryId": "accessory" },
+        { "id": "mouse-accessory", "name": "マウスアクセサリ", "categoryId": "accessory" }
       ]
     }
   ]

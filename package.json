@@ -11,7 +11,10 @@
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
     "collect-data": "tsx scripts/collect-data.ts",
-    "collect-data:update": "tsx scripts/collect-data.ts --update"
+    "collect-data:update": "tsx scripts/collect-data.ts --update",
+    "discover-items": "tsx scripts/discover-items.ts",
+    "discover-items:save": "tsx scripts/discover-items.ts --save",
+    "merge-items": "tsx scripts/merge-discovered-items.ts --apply"
   },
   "dependencies": {
     "next": "16.1.2",
@@ -30,6 +33,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.2",
     "jsdom": "^27.4.0",
+    "playwright": "^1.57.0",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5",

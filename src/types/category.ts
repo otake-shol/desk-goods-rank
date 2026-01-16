@@ -3,7 +3,7 @@
  * 仕様書: specs/04-static-data.md
  */
 
-export type CategoryId = 'device' | 'furniture' | 'lighting'
+export type CategoryId = 'device' | 'furniture' | 'lighting' | 'audio' | 'accessory'
 
 export interface SubCategory {
   id: string

@@ -11,6 +11,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 import { searchTwitter, TwitterSearchResult } from './collectors/twitter'
 import { searchYouTube, YouTubeSearchResult } from './collectors/youtube'
+import { fetchNoteArticles, matchProductInArticles, NoteData, NoteArticle } from './collectors/note'
 import { calculateScore, ScoreFactors } from './collectors/score-calculator'
 
 interface ItemData {
@@ -21,6 +22,7 @@ interface ItemData {
     twitter: number
     youtube: number
     amazon: number
+    note?: number
   }
 }
 
@@ -29,13 +31,15 @@ interface CollectedData {
   itemName: string
   twitter: TwitterSearchResult | null
   youtube: YouTubeSearchResult | null
+  note: NoteData | null
   calculatedScore: number
   timestamp: string
 }
 
 async function collectDataForItem(
   itemId: string,
-  itemName: string
+  itemName: string,
+  noteArticles: NoteArticle[]
 ): Promise<CollectedData> {
   console.log(`Collecting data for: ${itemName}`)
 
@@ -44,6 +48,9 @@ async function collectDataForItem(
     searchTwitter(itemName),
     searchYouTube(itemName),
   ])
+
+  // note.comの記事マッチング
+  const noteResult = matchProductInArticles(itemName, noteArticles)
 
   // スコアファクターを生成
   const factors: ScoreFactors = {
@@ -54,6 +61,8 @@ async function collectDataForItem(
     youtubeViews: youtubeResult?.totalViews || 0,
     youtubeEngagement:
       (youtubeResult?.totalLikes || 0) + (youtubeResult?.totalComments || 0) * 3, // コメントは重み付け3倍
+    noteArticles: noteResult.articleCount,
+    noteLikes: noteResult.totalLikes,
   }
 
   const calculatedScore = calculateScore(factors)
@@ -63,6 +72,7 @@ async function collectDataForItem(
     itemName,
     twitter: twitterResult,
     youtube: youtubeResult,
+    note: noteResult,
     calculatedScore,
     timestamp: new Date().toISOString(),
   }
@@ -76,13 +86,24 @@ async function main() {
   const itemsData = JSON.parse(fs.readFileSync(itemsPath, 'utf-8'))
   const items: ItemData[] = itemsData.items
 
+  // note.comからデスクツアー記事を取得（全アイテム共通で1回だけ）
+  console.log('Fetching note.com desk tour articles...')
+  let noteArticles: NoteArticle[] = []
+  try {
+    noteArticles = await fetchNoteArticles()
+    console.log(`Found ${noteArticles.length} articles on note.com\n`)
+  } catch (error) {
+    console.error('Failed to fetch note.com articles:', error)
+    console.log('Continuing without note.com data...\n')
+  }
+
   const collectedData: CollectedData[] = []
   const updatedItems: ItemData[] = []
 
   // 各アイテムのデータを収集
   for (const item of items) {
     try {
-      const data = await collectDataForItem(item.id, item.name)
+      const data = await collectDataForItem(item.id, item.name, noteArticles)
       collectedData.push(data)
 
       // スコアを更新
@@ -101,6 +122,11 @@ async function main() {
               10
           ),
           amazon: item.socialScore?.amazon || 50, // Amazon は既存値を維持
+          note: Math.round(
+            ((data.note?.articleCount || 0) * 10 +
+              (data.note?.totalLikes || 0) / 5) /
+              10
+          ),
         },
       })
 
