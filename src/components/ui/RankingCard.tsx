@@ -12,9 +12,11 @@ import { generateRakutenAffiliateUrl } from '@/lib/affiliate'
 interface RankingCardProps {
   item: Item
   showRank?: boolean
+  /** コンパクト表示（正方形画像、省スペース） */
+  compact?: boolean
 }
 
-export function RankingCard({ item, showRank = true }: RankingCardProps) {
+export function RankingCard({ item, showRank = true, compact = false }: RankingCardProps) {
   // ランク別のアクセントカラー
   const getRankStyle = (rank: number | undefined) => {
     if (!rank) return { border: 'border-white/10' }
@@ -50,7 +52,7 @@ export function RankingCard({ item, showRank = true }: RankingCardProps) {
       )}
 
       {/* 商品画像（リンク） */}
-      <Link href={`/item/${item.id}`} className="relative aspect-[4/3] overflow-hidden bg-[#12121a]">
+      <Link href={`/item/${item.id}`} className={`relative overflow-hidden bg-[#12121a] ${compact ? 'aspect-square' : 'aspect-[4/3]'}`}>
         <img
           src={item.imageUrl}
           alt={item.name}
@@ -68,10 +70,12 @@ export function RankingCard({ item, showRank = true }: RankingCardProps) {
           </h3>
         </Link>
 
-        {/* 商品概要 */}
-        <p className="mt-0.5 line-clamp-1 text-[10px] text-[#8888a0]">
-          {item.shortDescription}
-        </p>
+        {/* 商品概要（コンパクトモードでは非表示） */}
+        {!compact && (
+          <p className="mt-0.5 line-clamp-1 text-[10px] text-[#8888a0]">
+            {item.shortDescription}
+          </p>
+        )}
 
         {/* 価格 */}
         <div className="mt-1.5">

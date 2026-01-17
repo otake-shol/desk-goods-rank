@@ -45,10 +45,10 @@ const categoryColors: Record<string, { border: string; bg: string; text: string 
 
 export function CategoryPickupSection({ categories }: CategoryPickupSectionProps) {
   return (
-    <section id="categories" className="py-20 bg-[#12121a]">
+    <section id="categories" className="py-12 bg-[#12121a]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* セクションタイトル */}
-        <div className="mb-12 text-center">
+        <div className="mb-8 text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#00ff88]/30 bg-[#00ff88]/10 px-4 py-1 text-sm text-[#00ff88]">
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
@@ -64,7 +64,7 @@ export function CategoryPickupSection({ categories }: CategoryPickupSectionProps
         </div>
 
         {/* カテゴリ別グリッド */}
-        <div className="space-y-16">
+        <div className="space-y-10">
           {categories.map(({ category, items }) => {
             const colors = categoryColors[category.id] || categoryColors.device
             const icon = categoryIcons[category.id]
@@ -99,9 +99,9 @@ export function CategoryPickupSection({ categories }: CategoryPickupSectionProps
                 </div>
 
                 {/* アイテムリスト */}
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-3 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                   {items.map((item) => (
-                    <RankingCard key={item.id} item={item} showRank />
+                    <RankingCard key={item.id} item={item} showRank compact />
                   ))}
                 </div>
               </div>
