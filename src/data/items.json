@@ -8,7 +8,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71lSzy0Z-xL._AC_SL500_.jpg",
       "category": "device",
       "subCategory": "monitor",
-      "score": 15,
+      "score": 22,
       "amazon": {
         "asin": "B0CV3F5HDK",
         "url": "https://www.amazon.co.jp/dp/B0CV3F5HDK",
@@ -27,9 +27,10 @@
       "createdAt": "2024-01-01",
       "updatedAt": "2024-01-15",
       "socialScore": {
-        "twitter": 8,
+        "twitter": 21,
         "youtube": 0,
-        "amazon": 50
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -69,7 +70,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71qHq6NIqIL._AC_SX300_SY300_QL70_ML2_.jpg",
       "category": "device",
       "subCategory": "keyboard",
-      "score": 49,
+      "score": 28,
       "amazon": {
         "asin": "B082TYNNL2",
         "url": "https://www.amazon.co.jp/dp/B082TYNNL2",
@@ -87,9 +88,10 @@
       "createdAt": "2024-01-05",
       "updatedAt": "2024-01-10",
       "socialScore": {
-        "twitter": 49,
+        "twitter": 21,
         "youtube": 3,
-        "amazon": 50
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -129,7 +131,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61uDYXfqtxL._AC_SL500_.jpg",
       "category": "device",
       "subCategory": "mouse",
-      "score": 58,
+      "score": 50,
       "amazon": {
         "asin": "B0B1Q6VB16",
         "url": "https://www.amazon.co.jp/dp/B0B1Q6VB16",
@@ -147,9 +149,10 @@
       "createdAt": "2024-01-08",
       "updatedAt": "2024-01-12",
       "socialScore": {
-        "twitter": 66,
+        "twitter": 77,
         "youtube": 5,
-        "amazon": 50
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -189,7 +192,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51XfJ5EK19L._AC_SL500_.jpg",
       "category": "device",
       "subCategory": "headphone",
-      "score": 95,
+      "score": 64,
       "amazon": {
         "asin": "B09Z2QYYD1",
         "url": "https://www.amazon.co.jp/dp/B09Z2QYYD1",
@@ -207,9 +210,10 @@
       "createdAt": "2024-01-14",
       "updatedAt": "2024-01-14",
       "socialScore": {
-        "twitter": 49,
-        "youtube": 15,
-        "amazon": 50
+        "twitter": 29,
+        "youtube": 16,
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -249,7 +253,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51ubK2FPbXL._AC_SL500_.jpg",
       "category": "furniture",
       "subCategory": "desk",
-      "score": 39,
+      "score": 16,
       "amazon": {
         "asin": "B08F7MQL3S",
         "url": "https://www.amazon.co.jp/dp/B08F7MQL3S",
@@ -266,9 +270,10 @@
       "createdAt": "2024-01-02",
       "updatedAt": "2024-01-10",
       "socialScore": {
-        "twitter": 58,
+        "twitter": 45,
         "youtube": 1,
-        "amazon": 50
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -308,7 +313,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/81dqCi1sV6L._AC_SL500_.jpg",
       "category": "furniture",
       "subCategory": "chair",
-      "score": 32,
+      "score": 37,
       "amazon": {
         "asin": "B00LHADDFG",
         "url": "https://www.amazon.co.jp/dp/B00LHADDFG",
@@ -325,9 +330,10 @@
       "createdAt": "2024-01-03",
       "updatedAt": "2024-01-08",
       "socialScore": {
-        "twitter": 68,
+        "twitter": 79,
         "youtube": 0,
-        "amazon": 50
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -367,7 +373,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61lNUiCXqAL._AC_SY300_SX300_QL70_ML2_.jpg",
       "category": "furniture",
       "subCategory": "monitor-arm",
-      "score": 24,
+      "score": 29,
       "amazon": {
         "asin": "B00358RIRC",
         "url": "https://www.amazon.co.jp/dp/B00358RIRC",
@@ -384,9 +390,10 @@
       "createdAt": "2024-01-13",
       "updatedAt": "2024-01-13",
       "socialScore": {
-        "twitter": 49,
+        "twitter": 70,
         "youtube": 0,
-        "amazon": 50
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -426,7 +433,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/41BDbSCu9QL._AC_SL500_.jpg",
       "category": "lighting",
       "subCategory": "desk-light",
-      "score": 37,
+      "score": 41,
       "amazon": {
         "asin": "B0785D93KD",
         "url": "https://www.amazon.co.jp/dp/B0785D93KD",
@@ -444,9 +451,10 @@
       "createdAt": "2024-01-04",
       "updatedAt": "2024-01-09",
       "socialScore": {
-        "twitter": 28,
+        "twitter": 66,
         "youtube": 4,
-        "amazon": 50
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -487,7 +495,7 @@
       "needsImageReview": true,
       "category": "lighting",
       "subCategory": "desk-mat",
-      "score": 17,
+      "score": 28,
       "amazon": {
         "asin": "B08QS64X7J",
         "url": "https://www.amazon.co.jp/dp/B08QS64X7J",
@@ -504,9 +512,10 @@
       "createdAt": "2024-01-06",
       "updatedAt": "2024-01-11",
       "socialScore": {
-        "twitter": 18,
+        "twitter": 45,
         "youtube": 0,
-        "amazon": 50
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -546,7 +555,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71ywxSx2vrL._AC_SL500_.jpg",
       "category": "lighting",
       "subCategory": "ambient-light",
-      "score": 40,
+      "score": 31,
       "amazon": {
         "asin": "B07YSP7QYX",
         "url": "https://www.amazon.co.jp/dp/B07YSP7QYX",
@@ -564,9 +573,10 @@
       "createdAt": "2024-01-12",
       "updatedAt": "2024-01-12",
       "socialScore": {
-        "twitter": 59,
+        "twitter": 48,
         "youtube": 0,
-        "amazon": 50
+        "amazon": 50,
+        "note": 0
       },
       "mediaReferences": [
         {
@@ -606,7 +616,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/81kZ1W0J2cL._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 39,
       "amazon": {
         "asin": "B0D1K8H4F5",
         "url": "https://www.amazon.co.jp/dp/B0D1K8H4F5",
@@ -619,10 +629,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 56,
         "youtube": 0,
         "amazon": 50,
-        "note": 20
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -668,7 +678,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61MUsoq-kVL._AC_SX569_.jpg",
       "category": "furniture",
       "subCategory": "desk",
-      "score": 0,
+      "score": 24,
       "amazon": {
         "asin": "B0BZTS9LR7",
         "url": "https://www.amazon.co.jp/dp/B0BZTS9LR7",
@@ -681,10 +691,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 24,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -701,7 +711,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61iMkx6IURL._AC_SX522_.jpg",
       "category": "furniture",
       "subCategory": "monitor-arm",
-      "score": 0,
+      "score": 25,
       "amazon": {
         "asin": "B08CZBR42J",
         "url": "https://www.amazon.co.jp/dp/B08CZBR42J",
@@ -714,10 +724,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 45,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -763,7 +773,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71vpnRgasaL._AC_SX522_.jpg",
       "category": "furniture",
       "subCategory": "arm-accessory",
-      "score": 0,
+      "score": 35,
       "amazon": {
         "asin": "B09QBTG3CC",
         "url": "https://www.amazon.co.jp/dp/B09QBTG3CC",
@@ -776,10 +786,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 69,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -796,7 +806,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51d10VscHOL._AC_SY879_.jpg",
       "category": "device",
       "subCategory": "mouse",
-      "score": 0,
+      "score": 22,
       "amazon": {
         "asin": "B08CKZ9TSY",
         "url": "https://www.amazon.co.jp/dp/B08CKZ9TSY",
@@ -809,10 +819,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 44,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -858,7 +868,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71KsAwpML0L._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "microphone",
-      "score": 0,
+      "score": 33,
       "amazon": {
         "asin": "B0D41F9H3Z",
         "url": "https://www.amazon.co.jp/dp/B0D41F9H3Z",
@@ -871,10 +881,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 53,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -902,7 +912,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/41LDz--IYbL._SX425_.jpg",
       "category": "audio",
       "subCategory": "dac-amp",
-      "score": 0,
+      "score": 19,
       "amazon": {
         "asin": "B0CRYBV9CW",
         "url": "https://www.amazon.co.jp/dp/B0CRYBV9CW",
@@ -915,10 +925,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 19,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -935,7 +945,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/41O9CAhNzhL._AC_SX522_.jpg",
       "category": "audio",
       "subCategory": "dac-amp",
-      "score": 0,
+      "score": 22,
       "amazon": {
         "asin": "B0CLQK8G7K",
         "url": "https://www.amazon.co.jp/dp/B0CLQK8G7K",
@@ -948,10 +958,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 25,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -968,7 +978,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/41R367Dcs1L._AC_SX522_.jpg",
       "category": "audio",
       "subCategory": "bluetooth-receiver",
-      "score": 0,
+      "score": 22,
       "amazon": {
         "asin": "B0CP3LFM38",
         "url": "https://www.amazon.co.jp/dp/B0CP3LFM38",
@@ -981,10 +991,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 37,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1001,7 +1011,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51V9EpU8uRL._AC_SX522_.jpg",
       "category": "audio",
       "subCategory": "audio-accessory",
-      "score": 0,
+      "score": 40,
       "amazon": {
         "asin": "B08F9YMG8V",
         "url": "https://www.amazon.co.jp/dp/B08F9YMG8V",
@@ -1014,10 +1024,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 70,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1034,7 +1044,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/517MVMEkPeL._AC_SX569_.jpg",
       "category": "accessory",
       "subCategory": "storage",
-      "score": 0,
+      "score": 34,
       "amazon": {
         "asin": "B09CG85VJ3",
         "url": "https://www.amazon.co.jp/dp/B09CG85VJ3",
@@ -1047,10 +1057,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 61,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1067,7 +1077,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61vQqn6zZxL._AC_SY300_SX300_QL70_ML2_.jpg",
       "category": "device",
       "subCategory": "smart-display",
-      "score": 0,
+      "score": 37,
       "amazon": {
         "asin": "B09B2PF8S4",
         "url": "https://www.amazon.co.jp/dp/B09B2PF8S4",
@@ -1080,10 +1090,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 86,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1129,7 +1139,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51S-Cx4EUYL._AC_SY741_.jpg",
       "category": "accessory",
       "subCategory": "charger",
-      "score": 0,
+      "score": 32,
       "amazon": {
         "asin": "B0BJCXD6WF",
         "url": "https://www.amazon.co.jp/dp/B0BJCXD6WF",
@@ -1142,10 +1152,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 72,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1162,7 +1172,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71pEJsAZ6eL._AC_SY879_.jpg",
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 26,
       "amazon": {
         "asin": "B079FDQZXQ",
         "url": "https://www.amazon.co.jp/dp/B079FDQZXQ",
@@ -1175,10 +1185,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 58,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1224,7 +1234,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51FZnjk4duL._AC_SY879_.jpg",
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 16,
       "amazon": {
         "asin": "B016QCPRBM",
         "url": "https://www.amazon.co.jp/dp/B016QCPRBM",
@@ -1237,10 +1247,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 39,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1277,7 +1287,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61eVQhS1gLL._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 31,
       "amazon": {
         "asin": "B0CRQWQRMT",
         "url": "https://www.amazon.co.jp/dp/B0CRQWQRMT",
@@ -1290,10 +1300,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 41,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1339,7 +1349,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/41rMCfFOixL._AC_SX522_.jpg",
       "category": "accessory",
       "subCategory": "mouse-accessory",
-      "score": 0,
+      "score": 21,
       "amazon": {
         "asin": "B08DD6GQRV",
         "url": "https://www.amazon.co.jp/dp/B08DD6GQRV",
@@ -1352,10 +1362,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 59,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1383,7 +1393,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61nnbT4VJsL._AC_SY679_.jpg",
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 34,
       "amazon": {
         "asin": "B0DYDS6V55",
         "url": "https://www.amazon.co.jp/dp/B0DYDS6V55",
@@ -1396,10 +1406,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 52,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1436,7 +1446,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/613H8qq1rCL._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 18,
       "amazon": {
         "asin": "B0CZKNNNXJ",
         "url": "https://www.amazon.co.jp/dp/B0CZKNNNXJ",
@@ -1449,10 +1459,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 26,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1498,7 +1508,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61frLyJKN6L._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 38,
       "amazon": {
         "asin": "B0FHQ5KBR1",
         "url": "https://www.amazon.co.jp/dp/B0FHQ5KBR1",
@@ -1511,10 +1521,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 66,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1551,7 +1561,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51xk731l6KL._AC_SY879_.jpg",
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 30,
       "amazon": {
         "asin": "B016QCPNUW",
         "url": "https://www.amazon.co.jp/dp/B016QCPNUW",
@@ -1564,10 +1574,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 60,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1613,7 +1623,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61BhMOiauWL._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 31,
       "amazon": {
         "asin": "B0D9Y1SNQT",
         "url": "https://www.amazon.co.jp/dp/B0D9Y1SNQT",
@@ -1626,10 +1636,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 53,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1675,7 +1685,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/619NsX0xdiL._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 20,
       "amazon": {
         "asin": "B0D9Y1J4NH",
         "url": "https://www.amazon.co.jp/dp/B0D9Y1J4NH",
@@ -1688,10 +1698,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 22,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1737,7 +1747,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61hAhCW477L._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 31,
       "amazon": {
         "asin": "B0DMN94Q8M",
         "url": "https://www.amazon.co.jp/dp/B0DMN94Q8M",
@@ -1750,10 +1760,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 67,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1799,7 +1809,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71EcpHY3zZL._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 18,
       "amazon": {
         "asin": "B07LH1ZDSL",
         "url": "https://www.amazon.co.jp/dp/B07LH1ZDSL",
@@ -1812,10 +1822,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 43,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1852,7 +1862,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71Bbk0Byv2L._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 32,
       "amazon": {
         "asin": "B0CG5VDGKY",
         "url": "https://www.amazon.co.jp/dp/B0CG5VDGKY",
@@ -1865,10 +1875,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 55,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1914,7 +1924,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71MHPzaBlnL._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 24,
       "amazon": {
         "asin": "B0DG4RKZMD",
         "url": "https://www.amazon.co.jp/dp/B0DG4RKZMD",
@@ -1927,10 +1937,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 63,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -1947,7 +1957,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71f4BinbCqL._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 39,
       "amazon": {
         "asin": "B00CWXR15K",
         "url": "https://www.amazon.co.jp/dp/B00CWXR15K",
@@ -1960,10 +1970,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 90,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -2009,7 +2019,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71+8WCl-59L._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 26,
       "amazon": {
         "asin": "B0FHJYNL1J",
         "url": "https://www.amazon.co.jp/dp/B0FHJYNL1J",
@@ -2022,10 +2032,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 42,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -2042,7 +2052,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71MBuR5fWaL._AC_SX522_.jpg",
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 39,
       "amazon": {
         "asin": "B0CPXQQLL2",
         "url": "https://www.amazon.co.jp/dp/B0CPXQQLL2",
@@ -2055,10 +2065,10 @@
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 82,
         "youtube": 0,
         "amazon": 50,
-        "note": 10
+        "note": 0
       },
       "discoveredFrom": {
         "source": "note",
@@ -2105,7 +2115,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 16,
       "amazon": {
         "asin": "B078HDTV8P",
         "url": "https://www.amazon.co.jp/dp/B078HDTV8P",
@@ -2118,12 +2128,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 26,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2141,7 +2149,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "keyboard",
-      "score": 0,
+      "score": 31,
       "amazon": {
         "asin": "B081F9KVBG",
         "url": "https://www.amazon.co.jp/dp/B081F9KVBG",
@@ -2154,12 +2162,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 81,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2206,7 +2212,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "keyboard",
-      "score": 0,
+      "score": 40,
       "amazon": {
         "asin": "B098SSJ9L6",
         "url": "https://www.amazon.co.jp/dp/B098SSJ9L6",
@@ -2219,12 +2225,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 81,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2242,7 +2246,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "keyboard",
-      "score": 0,
+      "score": 11,
       "amazon": {
         "asin": "B07911QK3X",
         "url": "https://www.amazon.co.jp/dp/B07911QK3X",
@@ -2255,12 +2259,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 15,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2278,7 +2280,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "keyboard",
-      "score": 0,
+      "score": 26,
       "amazon": {
         "asin": "B01LYX0YS2",
         "url": "https://www.amazon.co.jp/dp/B01LYX0YS2",
@@ -2291,12 +2293,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 51,
         "youtube": 0,
         "amazon": 93,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2314,7 +2314,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "mouse",
-      "score": 0,
+      "score": 31,
       "amazon": {
         "asin": "B00008B68W",
         "url": "https://www.amazon.co.jp/dp/B00008B68W",
@@ -2327,12 +2327,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 58,
         "youtube": 0,
         "amazon": 70,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2350,7 +2348,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "mouse",
-      "score": 0,
+      "score": 16,
       "amazon": {
         "asin": "B009YTHLVY",
         "url": "https://www.amazon.co.jp/dp/B009YTHLVY",
@@ -2363,12 +2361,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 26,
         "youtube": 0,
         "amazon": 72,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2386,7 +2382,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "mouse",
-      "score": 0,
+      "score": 40,
       "amazon": {
         "asin": "B0049HAJFG",
         "url": "https://www.amazon.co.jp/dp/B0049HAJFG",
@@ -2399,12 +2395,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 101,
         "youtube": 0,
         "amazon": 71,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2422,7 +2416,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "mouse",
-      "score": 0,
+      "score": 31,
       "amazon": {
         "asin": "B0009I4QRQ",
         "url": "https://www.amazon.co.jp/dp/B0009I4QRQ",
@@ -2435,12 +2429,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 51,
         "youtube": 0,
         "amazon": 70,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2458,7 +2450,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "mouse",
-      "score": 0,
+      "score": 30,
       "amazon": {
         "asin": "B0009I4QRG",
         "url": "https://www.amazon.co.jp/dp/B0009I4QRG",
@@ -2471,12 +2463,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 51,
         "youtube": 0,
         "amazon": 70,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2494,7 +2484,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 38,
       "amazon": {
         "asin": "B097F37B4G",
         "url": "https://www.amazon.co.jp/dp/B097F37B4G",
@@ -2507,12 +2497,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 80,
         "youtube": 0,
         "amazon": 85,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2559,7 +2547,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 26,
       "amazon": {
         "asin": "B0CC4V3CJ2",
         "url": "https://www.amazon.co.jp/dp/B0CC4V3CJ2",
@@ -2572,12 +2560,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 51,
         "youtube": 0,
         "amazon": 79,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2595,7 +2581,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 23,
       "amazon": {
         "asin": "B0D46N2YM1",
         "url": "https://www.amazon.co.jp/dp/B0D46N2YM1",
@@ -2608,12 +2594,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 27,
         "youtube": 0,
         "amazon": 71,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2631,7 +2615,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "trackball",
-      "score": 0,
+      "score": 20,
       "amazon": {
         "asin": "B0CTQ3RYJ8",
         "url": "https://www.amazon.co.jp/dp/B0CTQ3RYJ8",
@@ -2644,12 +2628,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 31,
         "youtube": 0,
         "amazon": 73,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2667,7 +2649,7 @@
       "needsImageReview": false,
       "category": "furniture",
       "subCategory": "monitor-arm",
-      "score": 0,
+      "score": 36,
       "amazon": {
         "asin": "B0054TWH9E",
         "url": "https://www.amazon.co.jp/dp/B0054TWH9E",
@@ -2680,12 +2662,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 84,
         "youtube": 0,
         "amazon": 71,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2732,7 +2712,7 @@
       "needsImageReview": false,
       "category": "furniture",
       "subCategory": "monitor-arm",
-      "score": 0,
+      "score": 22,
       "amazon": {
         "asin": "B0011YTFQO",
         "url": "https://www.amazon.co.jp/dp/B0011YTFQO",
@@ -2745,12 +2725,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 40,
         "youtube": 0,
         "amazon": 70,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2768,7 +2746,7 @@
       "needsImageReview": false,
       "category": "furniture",
       "subCategory": "monitor-arm",
-      "score": 0,
+      "score": 33,
       "amazon": {
         "asin": "B001P9MBIO",
         "url": "https://www.amazon.co.jp/dp/B001P9MBIO",
@@ -2781,12 +2759,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 62,
         "youtube": 0,
         "amazon": 70,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2804,7 +2780,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "headphone",
-      "score": 0,
+      "score": 31,
       "amazon": {
         "asin": "B07Z23V371",
         "url": "https://www.amazon.co.jp/dp/B07Z23V371",
@@ -2817,12 +2793,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 52,
         "youtube": 0,
         "amazon": 89,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2840,7 +2814,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "headphone",
-      "score": 0,
+      "score": 19,
       "amazon": {
         "asin": "B07JDPLYJ6",
         "url": "https://www.amazon.co.jp/dp/B07JDPLYJ6",
@@ -2853,12 +2827,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 50,
         "youtube": 0,
         "amazon": 93,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2876,7 +2848,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "headphone",
-      "score": 0,
+      "score": 36,
       "amazon": {
         "asin": "B07WDZLMKL",
         "url": "https://www.amazon.co.jp/dp/B07WDZLMKL",
@@ -2889,12 +2861,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 82,
         "youtube": 0,
         "amazon": 84,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2941,7 +2911,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "headphone",
-      "score": 0,
+      "score": 26,
       "amazon": {
         "asin": "B089RBKH31",
         "url": "https://www.amazon.co.jp/dp/B089RBKH31",
@@ -2954,12 +2924,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 72,
         "youtube": 0,
         "amazon": 86,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -2977,7 +2945,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "headphone",
-      "score": 0,
+      "score": 19,
       "amazon": {
         "asin": "B0DD6QXS8S",
         "url": "https://www.amazon.co.jp/dp/B0DD6QXS8S",
@@ -2990,12 +2958,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 30,
         "youtube": 0,
         "amazon": 71,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3013,7 +2979,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "webcam",
-      "score": 0,
+      "score": 32,
       "amazon": {
         "asin": "B01N41607I",
         "url": "https://www.amazon.co.jp/dp/B01N41607I",
@@ -3026,12 +2992,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 77,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3049,7 +3013,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "webcam",
-      "score": 0,
+      "score": 29,
       "amazon": {
         "asin": "B06XZY8JTZ",
         "url": "https://www.amazon.co.jp/dp/B06XZY8JTZ",
@@ -3062,12 +3026,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 51,
         "youtube": 0,
         "amazon": 91,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3085,7 +3047,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "webcam",
-      "score": 0,
+      "score": 29,
       "amazon": {
         "asin": "B0DFPV7H4T",
         "url": "https://www.amazon.co.jp/dp/B0DFPV7H4T",
@@ -3098,12 +3060,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 55,
         "youtube": 0,
         "amazon": 72,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3121,7 +3081,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "webcam",
-      "score": 0,
+      "score": 10,
       "amazon": {
         "asin": "B087T5H3MQ",
         "url": "https://www.amazon.co.jp/dp/B087T5H3MQ",
@@ -3134,12 +3094,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 17,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3157,7 +3115,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "webcam",
-      "score": 0,
+      "score": 21,
       "amazon": {
         "asin": "B0BFW2GVF3",
         "url": "https://www.amazon.co.jp/dp/B0BFW2GVF3",
@@ -3170,12 +3128,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 52,
         "youtube": 0,
         "amazon": 71,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3204,7 +3160,7 @@
       "needsImageReview": false,
       "category": "accessory",
       "subCategory": "hub",
-      "score": 0,
+      "score": 18,
       "amazon": {
         "asin": "B07P1XB7BG",
         "url": "https://www.amazon.co.jp/dp/B07P1XB7BG",
@@ -3217,12 +3173,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 32,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3269,7 +3223,7 @@
       "needsImageReview": false,
       "category": "accessory",
       "subCategory": "hub",
-      "score": 0,
+      "score": 27,
       "amazon": {
         "asin": "B08135D6FW",
         "url": "https://www.amazon.co.jp/dp/B08135D6FW",
@@ -3282,12 +3236,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 74,
         "youtube": 0,
         "amazon": 82,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3305,7 +3257,7 @@
       "needsImageReview": false,
       "category": "accessory",
       "subCategory": "hub",
-      "score": 0,
+      "score": 23,
       "amazon": {
         "asin": "B0FJFCVW7B",
         "url": "https://www.amazon.co.jp/dp/B0FJFCVW7B",
@@ -3318,12 +3270,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 33,
         "youtube": 0,
         "amazon": 71,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3341,7 +3291,7 @@
       "needsImageReview": false,
       "category": "accessory",
       "subCategory": "hub",
-      "score": 0,
+      "score": 18,
       "amazon": {
         "asin": "B006T9B6R2",
         "url": "https://www.amazon.co.jp/dp/B006T9B6R2",
@@ -3354,12 +3304,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 51,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3406,7 +3354,7 @@
       "needsImageReview": false,
       "category": "accessory",
       "subCategory": "hub",
-      "score": 0,
+      "score": 33,
       "amazon": {
         "asin": "B0DZHB3897",
         "url": "https://www.amazon.co.jp/dp/B0DZHB3897",
@@ -3419,12 +3367,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 62,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3442,7 +3388,7 @@
       "needsImageReview": false,
       "category": "furniture",
       "subCategory": "chair",
-      "score": 0,
+      "score": 37,
       "amazon": {
         "asin": "B01LEJHW2O",
         "url": "https://www.amazon.co.jp/dp/B01LEJHW2O",
@@ -3455,12 +3401,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 52,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3478,7 +3422,7 @@
       "needsImageReview": false,
       "category": "furniture",
       "subCategory": "chair",
-      "score": 0,
+      "score": 32,
       "amazon": {
         "asin": "B00XHNJB8O",
         "url": "https://www.amazon.co.jp/dp/B00XHNJB8O",
@@ -3491,12 +3435,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 61,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3514,7 +3456,7 @@
       "needsImageReview": false,
       "category": "furniture",
       "subCategory": "chair",
-      "score": 0,
+      "score": 37,
       "amazon": {
         "asin": "B0013N1IOA",
         "url": "https://www.amazon.co.jp/dp/B0013N1IOA",
@@ -3527,12 +3469,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 74,
         "youtube": 0,
         "amazon": 82,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3550,7 +3490,7 @@
       "needsImageReview": false,
       "category": "furniture",
       "subCategory": "chair",
-      "score": 0,
+      "score": 18,
       "amazon": {
         "asin": "B0013N02TW",
         "url": "https://www.amazon.co.jp/dp/B0013N02TW",
@@ -3563,12 +3503,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 50,
         "youtube": 0,
         "amazon": 76,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3586,7 +3524,7 @@
       "needsImageReview": false,
       "category": "furniture",
       "subCategory": "chair",
-      "score": 0,
+      "score": 32,
       "amazon": {
         "asin": "B0DKHV22Y1",
         "url": "https://www.amazon.co.jp/dp/B0DKHV22Y1",
@@ -3599,12 +3537,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 50,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3622,7 +3558,7 @@
       "needsImageReview": false,
       "category": "lighting",
       "subCategory": "desk-mat",
-      "score": 0,
+      "score": 18,
       "amazon": {
         "asin": "B07V56TSR6",
         "url": "https://www.amazon.co.jp/dp/B07V56TSR6",
@@ -3635,12 +3571,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 38,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3658,7 +3592,7 @@
       "needsImageReview": false,
       "category": "lighting",
       "subCategory": "desk-mat",
-      "score": 0,
+      "score": 20,
       "amazon": {
         "asin": "B0006L0120",
         "url": "https://www.amazon.co.jp/dp/B0006L0120",
@@ -3671,12 +3605,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 22,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3694,7 +3626,7 @@
       "needsImageReview": false,
       "category": "lighting",
       "subCategory": "desk-mat",
-      "score": 0,
+      "score": 17,
       "amazon": {
         "asin": "B00LUKK0IQ",
         "url": "https://www.amazon.co.jp/dp/B00LUKK0IQ",
@@ -3707,12 +3639,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 28,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3730,7 +3660,7 @@
       "needsImageReview": false,
       "category": "lighting",
       "subCategory": "desk-mat",
-      "score": 0,
+      "score": 22,
       "amazon": {
         "asin": "B08GKJ21Y5",
         "url": "https://www.amazon.co.jp/dp/B08GKJ21Y5",
@@ -3743,12 +3673,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 59,
         "youtube": 0,
         "amazon": 100,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3777,7 +3705,7 @@
       "needsImageReview": false,
       "category": "lighting",
       "subCategory": "desk-mat",
-      "score": 0,
+      "score": 36,
       "amazon": {
         "asin": "B0G6JXGM53",
         "url": "https://www.amazon.co.jp/dp/B0G6JXGM53",
@@ -3790,12 +3718,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 72,
         "youtube": 0,
         "amazon": 71,
-        "note": 0,
-        "zenn": 0,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "amazon-bestseller",
@@ -3813,7 +3739,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 20,
       "amazon": {
         "asin": "B0B2WLQS39",
         "url": "https://www.amazon.co.jp/dp/B0B2WLQS39",
@@ -3826,12 +3752,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 49,
         "youtube": 0,
         "amazon": 50,
-        "note": 0,
-        "zenn": 20,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "zenn",
@@ -3849,7 +3773,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "other",
-      "score": 0,
+      "score": 24,
       "amazon": {
         "asin": "B083XF15V6",
         "url": "https://www.amazon.co.jp/dp/B083XF15V6",
@@ -3862,12 +3786,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 49,
         "youtube": 0,
         "amazon": 50,
-        "note": 0,
-        "zenn": 20,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "zenn",
@@ -3885,7 +3807,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "monitor",
-      "score": 0,
+      "score": 28,
       "amazon": {
         "asin": "B00MIBN71I",
         "url": "https://www.amazon.co.jp/dp/B00MIBN71I",
@@ -3898,12 +3820,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 63,
         "youtube": 0,
         "amazon": 50,
-        "note": 0,
-        "zenn": 20,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "zenn",
@@ -3921,7 +3841,7 @@
       "needsImageReview": false,
       "category": "furniture",
       "subCategory": "desk",
-      "score": 0,
+      "score": 29,
       "amazon": {
         "asin": "B07YWST6H8",
         "url": "https://www.amazon.co.jp/dp/B07YWST6H8",
@@ -3934,12 +3854,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 74,
         "youtube": 0,
         "amazon": 50,
-        "note": 0,
-        "zenn": 20,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "zenn",
@@ -3986,7 +3904,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "other",
-      "score": 0,
+      "score": 19,
       "amazon": {
         "asin": "B0B8NNCX2V",
         "url": "https://www.amazon.co.jp/dp/B0B8NNCX2V",
@@ -3999,12 +3917,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 37,
         "youtube": 0,
         "amazon": 50,
-        "note": 0,
-        "zenn": 20,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "zenn",
@@ -4022,7 +3938,7 @@
       "needsImageReview": false,
       "category": "accessory",
       "subCategory": "cable",
-      "score": 0,
+      "score": 19,
       "amazon": {
         "asin": "B07P46LPHG",
         "url": "https://www.amazon.co.jp/dp/B07P46LPHG",
@@ -4035,12 +3951,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 32,
         "youtube": 0,
         "amazon": 50,
-        "note": 0,
-        "zenn": 20,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "zenn",
@@ -4058,7 +3972,7 @@
       "needsImageReview": false,
       "category": "device",
       "subCategory": "other",
-      "score": 0,
+      "score": 23,
       "amazon": {
         "asin": "B07T2CVH23",
         "url": "https://www.amazon.co.jp/dp/B07T2CVH23",
@@ -4071,12 +3985,10 @@
       "createdAt": "2026-01-16",
       "updatedAt": "2026-01-16",
       "socialScore": {
-        "twitter": 0,
+        "twitter": 36,
         "youtube": 0,
         "amazon": 50,
-        "note": 0,
-        "zenn": 20,
-        "hatena": 0
+        "note": 0
       },
       "discoveredFrom": {
         "source": "zenn",
