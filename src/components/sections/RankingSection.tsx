@@ -30,7 +30,7 @@ export function RankingSection({
               </svg>
             </div>
             <h2 className="text-xl font-bold text-white sm:text-2xl">
-              {title}
+              総合人気ランキング<span className="hidden sm:inline"> TOP10</span>
             </h2>
             {totalCount && (
               <Link

@@ -19,6 +19,7 @@ export interface AmazonBestsellerItem {
 
 // Amazonベストセラーのカテゴリ（デスク環境関連）
 const BESTSELLER_CATEGORIES = [
+  // === 入力デバイス ===
   {
     name: 'PC用キーボード',
     url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151901051',
@@ -38,6 +39,13 @@ const BESTSELLER_CATEGORIES = [
     subCategory: 'trackball',
   },
   {
+    name: 'リストレスト',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151973051',
+    category: 'accessory',
+    subCategory: 'wristrest',
+  },
+  // === ディスプレイ関連 ===
+  {
     name: 'ディスプレイ',
     url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151582051',
     category: 'device',
@@ -50,10 +58,29 @@ const BESTSELLER_CATEGORIES = [
     subCategory: 'monitor-arm',
   },
   {
+    name: 'モニター台',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151984051',
+    category: 'furniture',
+    subCategory: 'monitor-stand',
+  },
+  // === オーディオ・通話 ===
+  {
     name: 'PC用ヘッドセット',
     url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151909051',
     category: 'device',
     subCategory: 'headphone',
+  },
+  {
+    name: 'イヤホン・ヘッドホン',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/electronics/3477981',
+    category: 'device',
+    subCategory: 'earphone',
+  },
+  {
+    name: 'ワイヤレスイヤホン',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/electronics/16410941',
+    category: 'device',
+    subCategory: 'wireless-earphone',
   },
   {
     name: 'Webカメラ',
@@ -68,11 +95,25 @@ const BESTSELLER_CATEGORIES = [
     subCategory: 'microphone',
   },
   {
+    name: 'PCスピーカー',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151914051',
+    category: 'device',
+    subCategory: 'speaker',
+  },
+  // === 接続・ハブ ===
+  {
     name: 'USBハブ',
     url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151953051',
     category: 'accessory',
     subCategory: 'hub',
   },
+  {
+    name: 'ドッキングステーション',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151986051',
+    category: 'accessory',
+    subCategory: 'dock',
+  },
+  // === 照明 ===
   {
     name: 'デスクライト',
     url: 'https://www.amazon.co.jp/gp/bestsellers/kitchen/5765350051',
@@ -80,16 +121,61 @@ const BESTSELLER_CATEGORIES = [
     subCategory: 'desk-light',
   },
   {
+    name: 'クリップライト',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/kitchen/5765351051',
+    category: 'lighting',
+    subCategory: 'clip-light',
+  },
+  // === 家具 ===
+  {
     name: 'オフィスチェア',
     url: 'https://www.amazon.co.jp/gp/bestsellers/kitchen/89104051',
     category: 'furniture',
     subCategory: 'chair',
   },
   {
+    name: 'パソコンデスク',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/kitchen/89103051',
+    category: 'furniture',
+    subCategory: 'desk',
+  },
+  {
+    name: 'デスクワゴン',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/kitchen/89099051',
+    category: 'furniture',
+    subCategory: 'wagon',
+  },
+  // === アクセサリー ===
+  {
     name: 'デスクマット',
     url: 'https://www.amazon.co.jp/gp/bestsellers/office-products/86732051',
-    category: 'lighting',
+    category: 'accessory',
     subCategory: 'desk-mat',
+  },
+  {
+    name: 'ケーブルボックス',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/home/2546090051',
+    category: 'accessory',
+    subCategory: 'cable-box',
+  },
+  {
+    name: 'ノートPCスタンド',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151972051',
+    category: 'accessory',
+    subCategory: 'laptop-stand',
+  },
+  // === その他デバイス ===
+  {
+    name: '外付けSSD',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/computers/2151962051',
+    category: 'device',
+    subCategory: 'ssd',
+  },
+  {
+    name: '電卓',
+    url: 'https://www.amazon.co.jp/gp/bestsellers/office-products/86743051',
+    category: 'accessory',
+    subCategory: 'calculator',
   },
 ]
 
