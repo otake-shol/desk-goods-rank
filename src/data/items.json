@@ -2138,7 +2138,8 @@
         "url": "https://www.amazon.co.jp/dp/B078HDTV8P",
         "title": "Amazon PC用キーボード ベストセラー #13",
         "mentionCount": 6
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "keyboard-b081f9kvbg",
@@ -2201,7 +2202,8 @@
           "publishedAt": "2025-06-05T12:42:10Z",
           "viewCount": 30
         }
-      ]
+      ],
+      "status": "hidden"
     },
     {
       "id": "keyboard-b098ssj9l6",
@@ -2235,7 +2237,8 @@
         "url": "https://www.amazon.co.jp/dp/B098SSJ9L6",
         "title": "Amazon PC用キーボード ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "keyboard-b07911qk3x",
@@ -2269,7 +2272,8 @@
         "url": "https://www.amazon.co.jp/dp/B07911QK3X",
         "title": "Amazon PC用キーボード ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "keyboard-b01lyx0ys2",
@@ -2303,7 +2307,8 @@
         "url": "https://www.amazon.co.jp/dp/B01LYX0YS2",
         "title": "Amazon PC用キーボード ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "mouse-b00008b68w",
@@ -2337,7 +2342,8 @@
         "url": "https://www.amazon.co.jp/dp/B00008B68W",
         "title": "Amazon PC用マウス ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "mouse-b009ythlvy",
@@ -2371,7 +2377,8 @@
         "url": "https://www.amazon.co.jp/dp/B009YTHLVY",
         "title": "Amazon PC用マウス ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "mouse-b0049hajfg",
@@ -2405,7 +2412,8 @@
         "url": "https://www.amazon.co.jp/dp/B0049HAJFG",
         "title": "Amazon PC用マウス ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "mouse-b0009i4qrq",
@@ -2439,7 +2447,8 @@
         "url": "https://www.amazon.co.jp/dp/B0009I4QRQ",
         "title": "Amazon PC用マウス ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "mouse-b0009i4qrg",
@@ -2473,7 +2482,8 @@
         "url": "https://www.amazon.co.jp/dp/B0009I4QRG",
         "title": "Amazon PC用マウス ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "trackball-b097f37b4g",
@@ -2536,7 +2546,8 @@
           "publishedAt": "2025-06-05T11:42:49Z",
           "viewCount": 214
         }
-      ]
+      ],
+      "status": "hidden"
     },
     {
       "id": "trackball-b0cc4v3cj2",
@@ -2570,7 +2581,8 @@
         "url": "https://www.amazon.co.jp/dp/B0CC4V3CJ2",
         "title": "Amazon トラックボール ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "trackball-b0d46n2ym1",
@@ -2604,7 +2616,8 @@
         "url": "https://www.amazon.co.jp/dp/B0D46N2YM1",
         "title": "Amazon トラックボール ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "trackball-b0ctq3ryj8",
@@ -2638,7 +2651,8 @@
         "url": "https://www.amazon.co.jp/dp/B0CTQ3RYJ8",
         "title": "Amazon トラックボール ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "monitor-arm-b0054twh9e",
@@ -2701,7 +2715,8 @@
           "publishedAt": "2025-02-08T04:10:50Z",
           "viewCount": 7766
         }
-      ]
+      ],
+      "status": "hidden"
     },
     {
       "id": "monitor-arm-b0011ytfqo",
@@ -2735,7 +2750,8 @@
         "url": "https://www.amazon.co.jp/dp/B0011YTFQO",
         "title": "Amazon モニターアーム ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "monitor-arm-b001p9mbio",
@@ -2769,7 +2785,8 @@
         "url": "https://www.amazon.co.jp/dp/B001P9MBIO",
         "title": "Amazon モニターアーム ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "headphone-b07z23v371",
@@ -2803,7 +2820,8 @@
         "url": "https://www.amazon.co.jp/dp/B07Z23V371",
         "title": "Amazon PC用ヘッドセット ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "headphone-b07jdplyj6",
@@ -2837,7 +2855,8 @@
         "url": "https://www.amazon.co.jp/dp/B07JDPLYJ6",
         "title": "Amazon PC用ヘッドセット ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "headphone-b07wdzlmkl",
@@ -2900,7 +2919,8 @@
           "publishedAt": "2022-05-10T12:35:14Z",
           "viewCount": 6523
         }
-      ]
+      ],
+      "status": "hidden"
     },
     {
       "id": "headphone-b089rbkh31",
@@ -2934,7 +2954,8 @@
         "url": "https://www.amazon.co.jp/dp/B089RBKH31",
         "title": "Amazon PC用ヘッドセット ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "headphone-b0dd6qxs8s",
@@ -2968,7 +2989,8 @@
         "url": "https://www.amazon.co.jp/dp/B0DD6QXS8S",
         "title": "Amazon PC用ヘッドセット ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "webcam-b01n41607i",
@@ -3002,7 +3024,8 @@
         "url": "https://www.amazon.co.jp/dp/B01N41607I",
         "title": "Amazon Webカメラ ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "webcam-b06xzy8jtz",
@@ -3036,7 +3059,8 @@
         "url": "https://www.amazon.co.jp/dp/B06XZY8JTZ",
         "title": "Amazon Webカメラ ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "webcam-b0dfpv7h4t",
@@ -3070,7 +3094,8 @@
         "url": "https://www.amazon.co.jp/dp/B0DFPV7H4T",
         "title": "Amazon Webカメラ ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "webcam-b087t5h3mq",
@@ -3104,7 +3129,8 @@
         "url": "https://www.amazon.co.jp/dp/B087T5H3MQ",
         "title": "Amazon Webカメラ ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "webcam-b0bfw2gvf3",
@@ -3149,7 +3175,8 @@
           "publishedAt": "2025-06-07T00:44:24Z",
           "viewCount": 15
         }
-      ]
+      ],
+      "status": "hidden"
     },
     {
       "id": "hub-b07p1xb7bg",
@@ -3411,7 +3438,8 @@
         "url": "https://www.amazon.co.jp/dp/B01LEJHW2O",
         "title": "Amazon オフィスチェア ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "chair-b00xhnjb8o",
@@ -3445,7 +3473,8 @@
         "url": "https://www.amazon.co.jp/dp/B00XHNJB8O",
         "title": "Amazon オフィスチェア ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "chair-b0013n1ioa",
@@ -3479,7 +3508,8 @@
         "url": "https://www.amazon.co.jp/dp/B0013N1IOA",
         "title": "Amazon オフィスチェア ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "chair-b0013n02tw",
@@ -3513,7 +3543,8 @@
         "url": "https://www.amazon.co.jp/dp/B0013N02TW",
         "title": "Amazon オフィスチェア ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "chair-b0dkhv22y1",
@@ -3547,7 +3578,8 @@
         "url": "https://www.amazon.co.jp/dp/B0DKHV22Y1",
         "title": "Amazon オフィスチェア ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "desk-mat-b07v56tsr6",
@@ -3581,7 +3613,8 @@
         "url": "https://www.amazon.co.jp/dp/B07V56TSR6",
         "title": "Amazon デスクマット ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "desk-mat-b0006l0120",
@@ -3615,7 +3648,8 @@
         "url": "https://www.amazon.co.jp/dp/B0006L0120",
         "title": "Amazon デスクマット ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "desk-mat-b00lukk0iq",
@@ -3649,7 +3683,8 @@
         "url": "https://www.amazon.co.jp/dp/B00LUKK0IQ",
         "title": "Amazon デスクマット ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "desk-mat-b08gkj21y5",
@@ -3694,7 +3729,8 @@
           "publishedAt": "2023-05-02T15:17:15Z",
           "viewCount": 285
         }
-      ]
+      ],
+      "status": "hidden"
     },
     {
       "id": "desk-mat-b0g6jxgm53",
@@ -3728,7 +3764,8 @@
         "url": "https://www.amazon.co.jp/dp/B0G6JXGM53",
         "title": "Amazon デスクマット ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "monitor-b0b2wlqs39",
@@ -4067,7 +4104,8 @@
         "url": "https://note.com/kankare/n/nf204774dacb2",
         "title": "【異常事態】ラピッドトリガーが5,980円！？Amazonキーボードランキング1位が「Logicool」を倒した理由。2500時間計測で判明【MonsGeek】",
         "mentionCount": 4
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "laptop-stand-b0fgcdsh1j",
@@ -4103,7 +4141,8 @@
         "url": "https://note.com/kankare/n/nf204774dacb2",
         "title": "【異常事態】ラピッドトリガーが5,980円！？Amazonキーボードランキング1位が「Logicool」を倒した理由。2500時間計測で判明【MonsGeek】",
         "mentionCount": 4
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "laptop-stand-b0dnsjsf2w",
@@ -4139,7 +4178,8 @@
         "url": "https://note.com/kankare/n/nf204774dacb2",
         "title": "【異常事態】ラピッドトリガーが5,980円！？Amazonキーボードランキング1位が「Logicool」を倒した理由。2500時間計測で判明【MonsGeek】",
         "mentionCount": 4
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "laptop-stand-b0bc135wfd",
@@ -4175,7 +4215,8 @@
         "url": "https://note.com/kankare/n/nf204774dacb2",
         "title": "【異常事態】ラピッドトリガーが5,980円！？Amazonキーボードランキング1位が「Logicool」を倒した理由。2500時間計測で判明【MonsGeek】",
         "mentionCount": 4
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "laptop-stand-b0dqwksqgr",
@@ -4211,7 +4252,8 @@
         "url": "https://note.com/kankare/n/nf204774dacb2",
         "title": "【異常事態】ラピッドトリガーが5,980円！？Amazonキーボードランキング1位が「Logicool」を倒した理由。2500時間計測で判明【MonsGeek】",
         "mentionCount": 4
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "earphone-b0cp4rhk7x",
@@ -4283,7 +4325,8 @@
         "url": "https://www.amazon.co.jp/dp/B07DVC25R2",
         "title": "Amazon リストレスト ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "wristrest-b08lvcqlsh",
@@ -4319,7 +4362,8 @@
         "url": "https://www.amazon.co.jp/dp/B08LVCQLSH",
         "title": "Amazon リストレスト ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "wristrest-b07sykkp47",
@@ -4355,7 +4399,8 @@
         "url": "https://www.amazon.co.jp/dp/B07SYKKP47",
         "title": "Amazon リストレスト ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "wristrest-b0d9vvj967",
@@ -4391,7 +4436,8 @@
         "url": "https://www.amazon.co.jp/dp/B0D9VVJ967",
         "title": "Amazon リストレスト ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "wristrest-b0d1xq9f3w",
@@ -4427,7 +4473,8 @@
         "url": "https://www.amazon.co.jp/dp/B0D1XQ9F3W",
         "title": "Amazon リストレスト ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "monitor-stand-b0f5b69skc",
@@ -4463,7 +4510,8 @@
         "url": "https://www.amazon.co.jp/dp/B0F5B69SKC",
         "title": "Amazon モニター台 ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "monitor-stand-b0cdwrj32q",
@@ -4499,7 +4547,8 @@
         "url": "https://www.amazon.co.jp/dp/B0CDWRJ32Q",
         "title": "Amazon モニター台 ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "monitor-stand-b0d2nxkk3x",
@@ -4535,7 +4584,8 @@
         "url": "https://www.amazon.co.jp/dp/B0D2NXKK3X",
         "title": "Amazon モニター台 ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "monitor-stand-b0ddxx3558",
@@ -4571,7 +4621,8 @@
         "url": "https://www.amazon.co.jp/dp/B0DDXX3558",
         "title": "Amazon モニター台 ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "earphone-b0ct857v89",
@@ -4751,7 +4802,8 @@
         "url": "https://www.amazon.co.jp/dp/B00A2M26DA",
         "title": "Amazon PCスピーカー ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "dock-b098k3h92z",
@@ -4931,7 +4983,8 @@
         "url": "https://www.amazon.co.jp/dp/B07ZD98QV3",
         "title": "Amazon パソコンデスク ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "desk-b06xhx6npk",
@@ -4967,7 +5020,8 @@
         "url": "https://www.amazon.co.jp/dp/B06XHX6NPK",
         "title": "Amazon パソコンデスク ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "desk-b0041nxxi8",
@@ -5003,7 +5057,8 @@
         "url": "https://www.amazon.co.jp/dp/B0041NXXI8",
         "title": "Amazon パソコンデスク ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "desk-b00bidw54m",
@@ -5039,7 +5094,8 @@
         "url": "https://www.amazon.co.jp/dp/B00BIDW54M",
         "title": "Amazon パソコンデスク ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "desk-b0cnkd7tny",
@@ -5075,7 +5131,8 @@
         "url": "https://www.amazon.co.jp/dp/B0CNKD7TNY",
         "title": "Amazon パソコンデスク ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "wagon-b002ob3opg",
@@ -5111,7 +5168,8 @@
         "url": "https://www.amazon.co.jp/dp/B002OB3OPG",
         "title": "Amazon デスクワゴン ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "wagon-b0d4yl6sk6",
@@ -5147,7 +5205,8 @@
         "url": "https://www.amazon.co.jp/dp/B0D4YL6SK6",
         "title": "Amazon デスクワゴン ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "wagon-b0dvls41w3",
@@ -5183,7 +5242,8 @@
         "url": "https://www.amazon.co.jp/dp/B0DVLS41W3",
         "title": "Amazon デスクワゴン ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "wagon-b0869w62gl",
@@ -5219,7 +5279,8 @@
         "url": "https://www.amazon.co.jp/dp/B0869W62GL",
         "title": "Amazon デスクワゴン ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "wagon-b07jg4nvn5",
@@ -5255,7 +5316,8 @@
         "url": "https://www.amazon.co.jp/dp/B07JG4NVN5",
         "title": "Amazon デスクワゴン ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "status": "hidden"
     },
     {
       "id": "ssd-b08p4cn4yc",
