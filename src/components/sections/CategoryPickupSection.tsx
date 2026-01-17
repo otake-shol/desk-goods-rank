@@ -70,7 +70,7 @@ export function CategoryPickupSection({ categories }: CategoryPickupSectionProps
             const icon = categoryIcons[category.id]
 
             return (
-              <div key={category.id}>
+              <div key={category.id} id={`category-${category.id}`}>
                 {/* カテゴリヘッダー */}
                 <div className="mb-6 flex items-center justify-between">
                   <div className="flex items-center gap-3">
